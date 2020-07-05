@@ -1,3 +1,5 @@
+package easy;
+
 public class leetcode1 {
     public static void main(String[] args) {
         int[] ints = Solution.twoSum(new int[]{1, 2, 3, 4, 5}, 7);

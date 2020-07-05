@@ -1,3 +1,5 @@
+package easy;
+
 public class leetcode9 {
 
 
