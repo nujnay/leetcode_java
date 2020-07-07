@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/jiazhioffer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/jiazhioffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/jiazhioffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/leetcode9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/leetcode9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.leetcode9">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="leetcode" />
@@ -78,6 +79,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.leetcode9" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.leetcode9" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -93,7 +112,7 @@
       <workItem from="1593914467091" duration="1017000" />
       <workItem from="1593927267111" duration="3434000" />
       <workItem from="1594003368764" duration="3118000" />
-      <workItem from="1594084074112" duration="491000" />
+      <workItem from="1594084074112" duration="1598000" />
     </task>
     <servers />
   </component>
