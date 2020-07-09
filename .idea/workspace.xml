@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/middle/leetcode1035.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/leetcode351.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/leetcode718.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/leetcode820.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/jiazhioffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/jiazhioffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy/jiazhioffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/easy/jiazhioffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middle/leetcode1035.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/middle/leetcode1035.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +72,26 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode9">
+  <component name="RunManager" selected="Application.leetcode1035">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode1035" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="middle.leetcode1035" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="middle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode1035" />
         <item itemvalue="Application.leetcode9" />
       </list>
     </recent_temporary>
@@ -113,7 +130,9 @@
       <workItem from="1593914467091" duration="1017000" />
       <workItem from="1593927267111" duration="3434000" />
       <workItem from="1594003368764" duration="3118000" />
-      <workItem from="1594084074112" duration="2752000" />
+      <workItem from="1594084074112" duration="5148000" />
+      <workItem from="1594168190948" duration="3337000" />
+      <workItem from="1594257151438" duration="912000" />
     </task>
     <servers />
   </component>
@@ -137,21 +156,21 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="328" y="79" key="#Project_Structure/0.23.1680.952@0.23.1680.952" timestamp="1593870509249" />
-    <state width="2518" height="382" key="GridCell.Tab.0.bottom" timestamp="1594086471051">
+    <state width="2518" height="382" key="GridCell.Tab.0.bottom" timestamp="1594124322609">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="382" key="GridCell.Tab.0.bottom/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1594086471051" />
-    <state width="2518" height="382" key="GridCell.Tab.0.center" timestamp="1594086471050">
+    <state width="2518" height="382" key="GridCell.Tab.0.bottom/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1594124322609" />
+    <state width="2518" height="382" key="GridCell.Tab.0.center" timestamp="1594124322608">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="382" key="GridCell.Tab.0.center/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1594086471050" />
-    <state width="2518" height="382" key="GridCell.Tab.0.left" timestamp="1594086471049">
+    <state width="2518" height="382" key="GridCell.Tab.0.center/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1594124322608" />
+    <state width="2518" height="382" key="GridCell.Tab.0.left" timestamp="1594124322608">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="382" key="GridCell.Tab.0.left/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1594086471049" />
-    <state width="2518" height="382" key="GridCell.Tab.0.right" timestamp="1594086471050">
+    <state width="2518" height="382" key="GridCell.Tab.0.left/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1594124322608" />
+    <state width="2518" height="382" key="GridCell.Tab.0.right" timestamp="1594124322609">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="382" key="GridCell.Tab.0.right/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1594086471050" />
+    <state width="2518" height="382" key="GridCell.Tab.0.right/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1594124322609" />
   </component>
 </project>
