@@ -31,6 +31,15 @@ public class leetcode1035 {
             }
         }
         return dp[A.length][B.length];
+    }
 
+    public static int test2(int[] A, int[] B) {
+        int[][] dp = new int[A.length][B.length];
+        for (int i = 0; i < A.length; i++) {
+            for (int j = 0; j < B.length; j++) {
+                dp[i][j] = A[i - 1] == B[j - 1] ? dp[i - 1][j - 1] + 1 : Math.max(dp[i - 1][j], dp[i][j - 1]);
+            }
+        }
+        return dp[A.length][B.length];
     }
 }
