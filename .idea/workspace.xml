@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/middle/leetcode104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/leetcode108.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/leetcode226.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/leetcode95.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middle/leetcode1035.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/middle/leetcode1035.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middle/leetcode718.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/middle/leetcode718.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +132,7 @@
       <workItem from="1594084074112" duration="5148000" />
       <workItem from="1594168190948" duration="3337000" />
       <workItem from="1594257151438" duration="3238000" />
-      <workItem from="1594347856411" duration="2478000" />
+      <workItem from="1594347856411" duration="5630000" />
     </task>
     <servers />
   </component>
@@ -170,5 +172,9 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="382" key="GridCell.Tab.0.right/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1594124322609" />
+    <state x="2133" y="328" width="670" height="676" key="search.everywhere.popup" timestamp="1594633694147">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="2133" y="328" width="670" height="676" key="search.everywhere.popup/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1594633694147" />
   </component>
 </project>
