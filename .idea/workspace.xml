@@ -80,7 +80,7 @@
       </method>
     </configuration>
     <configuration name="leetcode1035" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="middle.leetcode1035" />
+      <option name="MAIN_CLASS_NAME" value="week1.leetcode1035" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -93,11 +93,11 @@
       </method>
     </configuration>
     <configuration name="leetcode9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.leetcode9" />
+      <option name="MAIN_CLASS_NAME" value="week1.leetcode9" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
