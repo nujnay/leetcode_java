@@ -1,4 +1,4 @@
-package middle;
+package week1;
 
 public class leetcode718 {
 

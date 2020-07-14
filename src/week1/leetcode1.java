@@ -1,4 +1,4 @@
-package easy;
+package week1;
 
 public class leetcode1 {
     public static void main(String[] args) {

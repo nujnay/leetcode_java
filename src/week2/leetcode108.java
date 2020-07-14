@@ -1,4 +1,4 @@
-package middle;
+package week2;
 
 import com.sun.source.tree.Tree;
 
