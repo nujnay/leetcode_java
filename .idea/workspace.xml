@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/week2/leetcode428.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/leetcode0011.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/leetcode0042.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +64,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="array" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -132,7 +139,8 @@
       <workItem from="1594647601902" duration="112000" />
       <workItem from="1594647815582" duration="4000" />
       <workItem from="1594694823985" duration="1986000" />
-      <workItem from="1594771393650" duration="828000" />
+      <workItem from="1594771393650" duration="1316000" />
+      <workItem from="1594780523109" duration="3729000" />
     </task>
     <servers />
   </component>
@@ -172,6 +180,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="382" key="GridCell.Tab.0.right/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1594124322609" />
+    <state x="789" y="330" key="SettingsEditor" timestamp="1594780672171">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="789" y="330" key="SettingsEditor/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1594780672171" />
     <state x="2133" y="328" width="670" height="676" key="search.everywhere.popup" timestamp="1594633694147">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
