@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/leetcode0011.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/leetcode0042.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/leetcode0031.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -140,7 +138,8 @@
       <workItem from="1594647815582" duration="4000" />
       <workItem from="1594694823985" duration="1986000" />
       <workItem from="1594771393650" duration="1316000" />
-      <workItem from="1594780523109" duration="3729000" />
+      <workItem from="1594780523109" duration="4254000" />
+      <workItem from="1594881725143" duration="644000" />
     </task>
     <servers />
   </component>
