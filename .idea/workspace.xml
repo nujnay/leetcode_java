@@ -72,13 +72,26 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode1035">
+  <component name="RunManager" selected="Application.leetcode0026">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode0026" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.leetcode0026" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode0026" />
         <item itemvalue="Application.leetcode1035" />
         <item itemvalue="Application.leetcode9" />
       </list>
@@ -140,7 +154,7 @@
       <workItem from="1594771393650" duration="1316000" />
       <workItem from="1594780523109" duration="4254000" />
       <workItem from="1594881725143" duration="999000" />
-      <workItem from="1594903133817" duration="332000" />
+      <workItem from="1594903133817" duration="1443000" />
     </task>
     <servers />
   </component>
@@ -196,6 +210,11 @@
           <url>file://$PROJECT_DIR$/src/week2/leetcode1367.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/leetcode0026.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
