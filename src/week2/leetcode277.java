@@ -2,7 +2,7 @@ package week2;
 
 public class leetcode277 {
     public int findCelebrity(int n) {
-        int left = 0;
+        int left = 0;//左边一个指针
         int right = n - 1;
         while (left != right) {
             if (knows(left, right)) {
