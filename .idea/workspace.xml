@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,11 +82,11 @@
       </method>
     </configuration>
     <configuration name="leetcode0001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.leetcode0001" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.leetcode0001" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +95,11 @@
       </method>
     </configuration>
     <configuration name="leetcode0026" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.leetcode0026" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.leetcode0026" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +108,11 @@
       </method>
     </configuration>
     <configuration name="leetcode1035" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.leetcode1035" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.week1.leetcode1035" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2.*" />
+          <option name="PATTERN" value="leetcode.week2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +121,11 @@
       </method>
     </configuration>
     <configuration name="leetcode9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.leetcode9" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.week1.leetcode9" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week1.*" />
+          <option name="PATTERN" value="leetcode.week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,7 +170,7 @@
       <workItem from="1594955972127" duration="3716000" />
       <workItem from="1594990035705" duration="525000" />
       <workItem from="1595044143845" duration="4784000" />
-      <workItem from="1595211625616" duration="1331000" />
+      <workItem from="1595211625616" duration="1738000" />
     </task>
     <servers />
   </component>
@@ -241,7 +239,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/week2/leetcode1367.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/week2/leetcode1367.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
