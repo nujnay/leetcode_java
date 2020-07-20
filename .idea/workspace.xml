@@ -20,8 +20,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resume.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/Hash是什么.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Hash是什么.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/array/leetcode0001$Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/array/leetcode0001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/array/leetcode0004.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/array/leetcode0011.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/array/leetcode0015.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/array/leetcode0016.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/array/leetcode0026.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/array/leetcode0031.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/array/leetcode0042.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/array/leetcode0053.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/array/leetcode0085.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/jiazhioffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode1$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode1035.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode104$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode104.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode1114.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode2$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode2$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode206$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode206.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode226$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode226.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode351.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode7$ReverseInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode718.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode820.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode9$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week1/leetcode9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week2/leetcode108$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week2/leetcode108.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week2/leetcode1367.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week2/leetcode173.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week2/leetcode277.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week2/leetcode348.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week2/leetcode428.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week2/leetcode535.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week2/leetcode95$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week2/leetcode95$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/week2/leetcode95.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/HashMap的数据结构.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/HashMap的数据结构.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Hash是什么.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/hashmapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/hashmapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +108,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -74,13 +118,16 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode0001">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.hashmapTest">
+    <configuration name="hashmapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.hashmapTest" />
       <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,6 +186,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hashmapTest" />
         <item itemvalue="Application.leetcode0001" />
         <item itemvalue="Application.leetcode0026" />
         <item itemvalue="Application.leetcode1035" />
@@ -175,6 +223,8 @@
       <workItem from="1594990035705" duration="525000" />
       <workItem from="1595044143845" duration="4784000" />
       <workItem from="1595211625616" duration="2020000" />
+      <workItem from="1595227895664" duration="919000" />
+      <workItem from="1595229164422" duration="921000" />
     </task>
     <servers />
   </component>
@@ -198,22 +248,26 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="328" y="79" key="#Project_Structure/0.23.1680.952@0.23.1680.952" timestamp="1593870509249" />
-    <state width="2516" height="470" key="GridCell.Tab.0.bottom" timestamp="1595083569397">
+    <state x="918" y="484" key="#VisualVM_Launcher" timestamp="1595229264565">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2516" height="470" key="GridCell.Tab.0.bottom/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595083569397" />
-    <state width="2516" height="470" key="GridCell.Tab.0.center" timestamp="1595083569397">
+    <state x="918" y="484" key="#VisualVM_Launcher/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595229264565" />
+    <state width="2516" height="382" key="GridCell.Tab.0.bottom" timestamp="1595229269563">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2516" height="470" key="GridCell.Tab.0.center/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595083569397" />
-    <state width="2516" height="470" key="GridCell.Tab.0.left" timestamp="1595083569397">
+    <state width="2516" height="382" key="GridCell.Tab.0.bottom/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595229269563" />
+    <state width="2516" height="382" key="GridCell.Tab.0.center" timestamp="1595229269562">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2516" height="470" key="GridCell.Tab.0.left/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595083569397" />
-    <state width="2516" height="470" key="GridCell.Tab.0.right" timestamp="1595083569397">
+    <state width="2516" height="382" key="GridCell.Tab.0.center/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595229269562" />
+    <state width="2516" height="382" key="GridCell.Tab.0.left" timestamp="1595229269562">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2516" height="470" key="GridCell.Tab.0.right/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595083569397" />
+    <state width="2516" height="382" key="GridCell.Tab.0.left/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595229269562" />
+    <state width="2516" height="382" key="GridCell.Tab.0.right" timestamp="1595229269562">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2516" height="382" key="GridCell.Tab.0.right/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595229269562" />
     <state width="2516" height="470" key="GridCell.Tab.1.bottom" timestamp="1595083569398">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -230,10 +284,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2516" height="470" key="GridCell.Tab.1.right/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595083569398" />
-    <state x="789" y="330" key="SettingsEditor" timestamp="1594780672171">
+    <state x="789" y="330" key="SettingsEditor" timestamp="1595229153614">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="789" y="330" key="SettingsEditor/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1594780672171" />
+    <state x="789" y="330" key="SettingsEditor/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595229153614" />
     <state x="2133" y="328" width="670" height="676" key="search.everywhere.popup" timestamp="1594633694147">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
