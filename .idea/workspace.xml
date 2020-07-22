@@ -70,7 +70,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.hashmapTest (1)">
+  <component name="RunManager" selected="Application.leetcode1">
     <configuration name="hashmapTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javatest.hashmapTest" />
       <module name="leetcode" />
@@ -123,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode1035" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.week1.leetcode1035" />
+    <configuration name="leetcode1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.week1.leetcode1" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.week2.*" />
+          <option name="PATTERN" value="leetcode.week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode1" />
         <item itemvalue="Application.hashmapTest (1)" />
         <item itemvalue="Application.leetcode0001" />
         <item itemvalue="Application.hashmapTest" />
         <item itemvalue="Application.leetcode0026" />
-        <item itemvalue="Application.leetcode1035" />
       </list>
     </recent_temporary>
   </component>
