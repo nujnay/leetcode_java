@@ -19,57 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.ignore" beforeDir="false" afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/android/AndroidGC和JavaGC.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/javatest/HashMap的数据结构.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/javatest/Set为什么能去重.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/javatest/hashmapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/array/leetcode0001$Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/array/leetcode0001.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/array/leetcode0004.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/array/leetcode0011.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/array/leetcode0015.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/array/leetcode0016.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/array/leetcode0026.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/array/leetcode0031.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/array/leetcode0042.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/array/leetcode0053.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/array/leetcode0085.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/jiazhioffer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode1$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode1035.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode104$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode104.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode1114.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode2$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode2$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode206$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode206.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode226$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode226.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode351.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode7$ReverseInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode718.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode820.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode9$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week1/leetcode9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week2/leetcode108$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week2/leetcode108.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week2/leetcode1367.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week2/leetcode173.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week2/leetcode277.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week2/leetcode348.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week2/leetcode428.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week2/leetcode535.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week2/leetcode95$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week2/leetcode95$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/week2/leetcode95.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/resume.md" beforeDir="false" />
-    </list>
+    <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,7 +179,7 @@
       <workItem from="1595229164422" duration="2276000" />
       <workItem from="1595299329667" duration="5557000" />
       <workItem from="1595420870861" duration="559000" />
-      <workItem from="1595422286846" duration="1638000" />
+      <workItem from="1595422286846" duration="1975000" />
     </task>
     <servers />
   </component>
@@ -261,26 +211,26 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="990" y="500" key="#com.intellij.fileTypes.FileTypeChooser/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595310317835" />
-    <state width="2516" height="382" key="GridCell.Tab.0.bottom" timestamp="1595423778143">
+    <state width="2516" height="451" key="GridCell.Tab.0.bottom" timestamp="1595424038780">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2516" height="382" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1595251086112" />
-    <state width="2516" height="382" key="GridCell.Tab.0.bottom/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595423778143" />
-    <state width="2516" height="382" key="GridCell.Tab.0.center" timestamp="1595423778142">
+    <state width="2516" height="451" key="GridCell.Tab.0.bottom/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595424038780" />
+    <state width="2516" height="451" key="GridCell.Tab.0.center" timestamp="1595424038779">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2516" height="382" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1595251086112" />
-    <state width="2516" height="382" key="GridCell.Tab.0.center/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595423778142" />
-    <state width="2516" height="382" key="GridCell.Tab.0.left" timestamp="1595423778141">
+    <state width="2516" height="451" key="GridCell.Tab.0.center/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595424038779" />
+    <state width="2516" height="451" key="GridCell.Tab.0.left" timestamp="1595424038778">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2516" height="382" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1595251086111" />
-    <state width="2516" height="382" key="GridCell.Tab.0.left/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595423778141" />
-    <state width="2516" height="382" key="GridCell.Tab.0.right" timestamp="1595423778142">
+    <state width="2516" height="451" key="GridCell.Tab.0.left/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595424038778" />
+    <state width="2516" height="451" key="GridCell.Tab.0.right" timestamp="1595424038780">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2516" height="382" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1595251086112" />
-    <state width="2516" height="382" key="GridCell.Tab.0.right/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595423778142" />
+    <state width="2516" height="451" key="GridCell.Tab.0.right/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595424038780" />
     <state width="2516" height="470" key="GridCell.Tab.1.bottom" timestamp="1595338394161">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
