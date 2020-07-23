@@ -9,10 +9,16 @@ public class hashmapTest {
         String test = "12";
         int h = 0;
         for (byte v : test.getBytes()) {
-            System.out.println("v:::"+v);
-            System.out.println("v2:::"+(v & 0xff));
+            System.out.println("v:::" + v);
+            System.out.println("v2:::" + (v & 0xff));
             h = 31 * h + (v & 0xff);
-            System.out.println("h:::"+h);
+            System.out.println("h:::" + h);
         }
+
+
+        int hash = test.hashCode();
+        System.out.println("hash::" + hash);
+        int hashfinal = hash ^ (hash >>> 16);
+        System.out.println("hashfinal::" + hashfinal);
     }
 }
