@@ -1,4 +1,4 @@
-package javatest;
+package javastudy;
 
 import java.util.HashMap;
 
