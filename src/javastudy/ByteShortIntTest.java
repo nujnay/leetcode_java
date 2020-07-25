@@ -26,7 +26,7 @@ public class ByteShortIntTest {
     }
 
     public static int test3() {
-
-        return 1;
+        int a = 1;
+        return a;
     }
 }
