@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/week4/leetcode26.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javastudy/ByteShortIntTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javastudy/ByteShortIntTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -143,7 +145,6 @@
       <list>
         <item itemvalue="Application.ByteShortIntTest" />
         <item itemvalue="Application.TryTest" />
-        <item itemvalue="Application.hashmapTest (1)" />
         <item itemvalue="Application.leetcode1" />
         <item itemvalue="Application.leetcode0001" />
       </list>
@@ -186,6 +187,8 @@
       <workItem from="1595472537071" duration="6868000" />
       <workItem from="1595558421510" duration="856000" />
       <workItem from="1595673180814" duration="2930000" />
+      <workItem from="1595676959560" duration="1408000" />
+      <workItem from="1595728607655" duration="1455000" />
     </task>
     <servers />
   </component>
