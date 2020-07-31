@@ -2,7 +2,7 @@ package leetcode.week4;
 
 public class leetcode0167 {
     public static void main(String[] args) {
-
+        twoSum1(new int[]{1, 2, 3}, 3);
     }
     //167. Two Sum II - Input array is sorted
 
@@ -24,7 +24,7 @@ public class leetcode0167 {
      * @param target
      * @return
      */
-    public static int[] twoSum(int[] numbers, int target) {
+    public static int[] twoSum1(int[] numbers, int target) {
         for (int i = 0; i < numbers.length; i++) {
             int low = i + 1;
             int high = numbers.length - 1;
@@ -37,6 +37,21 @@ public class leetcode0167 {
                 } else {
                     low = mid + 1;
                 }
+            }
+        }
+        return new int[]{-1, -1};
+    }
+
+    public static int[] twoSum2(int[] numbers, int target) {
+        int low = 0, high = numbers.length - 1;
+        while (low < high) {
+            int sum = numbers[low] + numbers[high];
+            if (sum == target) {
+                return new int[]{low + 1, high + 1};
+            } else if (sum < target) {
+                ++low;
+            } else {
+                --high;
             }
         }
         return new int[]{-1, -1};
