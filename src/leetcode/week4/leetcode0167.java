@@ -25,11 +25,11 @@ public class leetcode0167 {
      * @return
      */
     public static int[] twoSum1(int[] numbers, int target) {
-        for (int i = 0; i < numbers.length; i++) {
-            int low = i + 1;
-            int high = numbers.length - 1;
-            while (low <= high) {
-                int mid = (high - low) / 2 + low;
+        for (int i = 0; i < numbers.length; i++) {//便利数组所有的元素
+            int low = i + 1;//定义低的变量等于当前下表加一
+            int high = numbers.length - 1;//定义高的变量 等于数组长度减一
+            while (low <= high) {//如果低的坐标等于或者大于打得变量
+                int mid = (high - low) / 2 + low;//中间的变量的高的变量减低的变量的一半+低的变量
                 if (numbers[mid] == target - numbers[i]) {
                     return new int[]{i + 1, mid + 1};
                 } else if (numbers[mid] > target - numbers[i]) {
