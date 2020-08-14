@@ -22,7 +22,7 @@ public class leetcode0003 {
             if (i != 0) {
                 occ.remove(s.charAt(i - 1));
             }
-            while (rk + 1 < n && !occ.contains(s.charAt(rk + 1))) {
+            while (!occ.contains(s.charAt(rk + 1))) {
                 occ.add(s.charAt(rk + 1));
             }
             ans = Math.max(ans, rk - i + 1);
