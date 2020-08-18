@@ -22,7 +22,6 @@
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/week7/leetcode0056.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/week7/leetcode0056.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/week7/leetcode0202.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/week7/leetcode0202.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +216,7 @@
       <workItem from="1597545015483" duration="144000" />
       <workItem from="1597601880852" duration="5136000" />
       <workItem from="1597716641745" duration="2477000" />
-      <workItem from="1597729266561" duration="579000" />
+      <workItem from="1597729266561" duration="2947000" />
     </task>
     <servers />
   </component>
