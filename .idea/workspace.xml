@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/week7/leetcode0202.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/week7/leetcode0056.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/week7/leetcode0056.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/week7/leetcode0202.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/week7/leetcode0202.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +215,9 @@
       <workItem from="1597461151953" duration="506000" />
       <workItem from="1597506593827" duration="525000" />
       <workItem from="1597545015483" duration="144000" />
-      <workItem from="1597601880852" duration="4501000" />
+      <workItem from="1597601880852" duration="5136000" />
+      <workItem from="1597716641745" duration="2477000" />
+      <workItem from="1597729266561" duration="579000" />
     </task>
     <servers />
   </component>
@@ -246,10 +249,11 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="744" y="353" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595674669344" />
-    <state x="990" y="500" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595310317835">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state x="990" y="500" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597717852533">
+      <screen x="0" y="23" width="2560" height="1338" />
     </state>
     <state x="990" y="500" key="#com.intellij.fileTypes.FileTypeChooser/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595310317835" />
+    <state x="990" y="500" key="#com.intellij.fileTypes.FileTypeChooser/2560.155.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1597717852533" />
     <state x="1100" y="321" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1595854515399">
       <screen x="0" y="23" width="1680" height="947" />
     </state>

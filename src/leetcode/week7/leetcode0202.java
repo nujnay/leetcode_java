@@ -21,4 +21,6 @@ public class leetcode0202 {
      * 6 squares + 8 squares = 100
      * 1 squares + 0 squares + 0 squares = 1
      **/
+
+
 }
