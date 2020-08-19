@@ -24,7 +24,8 @@ public class leetcode0056 {
      * and we're looking at the studio rate in each sub
      * array is going to be an interval and it's going to be of size to the beginning of the interval is the first
      * element the ending is the second element beginning first element ending second so some of these intervals overlap
-     *
+     * 1 3 and 26 overlap because 2 is the beginning of this interval is less than the ending of this interval so you could see
+     * if you were to like plot this out kind of number wise you would
      *
      */
 
