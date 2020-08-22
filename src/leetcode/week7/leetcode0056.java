@@ -44,7 +44,7 @@ public class leetcode0056 {
         return Arrays.copyOf(res, idx + 1);
     }
 
-    public static int[][] merge(int[][] intervals) {
+    public static int[][] merge2(int[][] intervals) {
         if (intervals.length <= 1) {//if intervals dot length is less than or equal to one that
 
         }
