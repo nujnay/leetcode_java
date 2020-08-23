@@ -18,6 +18,19 @@ public class leetcode108 {
      *       -3   9
      *       /   /
      *     -10  5
+     *
+     *
+     *
+     * https://www.youtube.com/watch?v=12omz-VAyRk
+     * Hey What's up guys, nick white here
+     * I am detecting coding stuff on twitch and YouTube and I'm back on leak code
+     * it's been a while but here I am and we're gonna get back into it now we're
+     * gonna start with an easy problem here this is a tree problem I've
+     * done most of them, but I guess I missed this one it is the last easy one
+     * I have to do 108 convert sorted array to binary search tree okey
+     * so I'm guessing we're gonna take an array given an array where elements
+     * are sorted in ascending order
+     *
      */
 
 

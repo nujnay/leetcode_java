@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/week2/leetcode108.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/week2/leetcode108.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +219,7 @@
       <workItem from="1597729266561" duration="9385000" />
       <workItem from="1597889659136" duration="934000" />
       <workItem from="1597926111990" duration="3263000" />
-      <workItem from="1598083804180" duration="331000" />
+      <workItem from="1598083804180" duration="1874000" />
     </task>
     <servers />
   </component>
@@ -308,9 +309,10 @@
     </state>
     <state x="518" y="240" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1596197624237" />
     <state x="789" y="330" key="SettingsEditor/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595310711517" />
-    <state x="2133" y="328" width="670" height="729" key="search.everywhere.popup" timestamp="1597925514833">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="1400" y="239" width="670" height="532" key="search.everywhere.popup" timestamp="1598088289779">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="1400" y="239" width="670" height="532" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598088289779" />
     <state x="2133" y="328" width="670" height="729" key="search.everywhere.popup/2560.132.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1597925514833" />
     <state x="2133" y="328" width="670" height="676" key="search.everywhere.popup/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1594633694147" />
     <state x="2133" y="328" width="670" height="677" key="search.everywhere.popup/2560.155.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1597754564686" />
