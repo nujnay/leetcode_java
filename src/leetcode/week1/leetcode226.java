@@ -1,5 +1,29 @@
 package leetcode.week1;
 
+/**
+ * invert Binary Tree
+ * invert a binary tree
+ * Example:
+ * input
+ *      4
+ *    /   \
+ *   2     7
+ *  / \   / \
+ * 1   3 6   9
+ * out put
+ *      4
+ *    /   \
+ *   7     2
+ *  / \   / \
+ * 9   6 3   1
+ *
+ * trivia
+ * This problem was inspired by this original tweet by Max Howeli
+ *
+ *
+ *
+ */
+
 public class leetcode226 {
     public static class TreeNode{
         int val;
