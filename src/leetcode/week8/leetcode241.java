@@ -12,6 +12,12 @@ package leetcode.week8;
  * ((2-1)-1) = 0
  * (2-(1-1)) = 2
  *
+ * plural noun Parentheses
+ * parenthesis
+ * a word or phrase inserted as an explanation or afterthought into a passage which is grammatically complete without it, in writing usually marked off by brackets, dashes, or commas.
+ *  passage
+ *      the action or process of moving through or past somewhere on the way from one place to another.
+ *
  */
 public class leetcode241 {
 
