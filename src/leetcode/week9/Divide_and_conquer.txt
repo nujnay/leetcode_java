@@ -1,2 +1,5 @@
-conquer
-    overcome and take control of (a place or people) by military force.
+Divide and Conquer Algorithm
+    conquer
+        overcome and take control of (a place or people) by military force.
+In computer science, divide and conquer is an algorithm design paradigm based on multi-branched recursion. A divide-and-conquer algorithm
+works by recursively breaking down a problem into two or more sub-problems of the same or related type,
