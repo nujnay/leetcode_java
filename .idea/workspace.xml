@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/week9/Divide_and_conquer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/week9/Divide_and_conquer.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +230,8 @@
       <workItem from="1598619893407" duration="236000" />
       <workItem from="1598673188426" duration="2110000" />
       <workItem from="1598718775806" duration="1730000" />
-      <workItem from="1598953844391" duration="502000" />
+      <workItem from="1598953844391" duration="1804000" />
+      <workItem from="1599012716673" duration="989000" />
     </task>
     <servers />
   </component>
