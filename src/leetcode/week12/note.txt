@@ -1,1 +1,2 @@
 today is mon september 21, leetcode gogogo
+translate the leetcode youtube video
