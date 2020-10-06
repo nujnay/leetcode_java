@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/weel13/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/weel13/note.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -256,7 +254,7 @@
       <workItem from="1600669553267" duration="2269000" />
       <workItem from="1600740728143" duration="1235000" />
       <workItem from="1601806896131" duration="967000" />
-      <workItem from="1601863466449" duration="260000" />
+      <workItem from="1601863466449" duration="2317000" />
     </task>
     <servers />
   </component>
