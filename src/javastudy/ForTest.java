@@ -24,4 +24,14 @@ public class ForTest {
         }
         System.out.println("end" + i);
     }
+
+    public static void test3() {
+        String i = "1";
+        for (; !i.equals("8"); test2()) {
+            System.out.println(i);
+        }
+        System.out.println("end" + i);
+    }
+
+
 }
