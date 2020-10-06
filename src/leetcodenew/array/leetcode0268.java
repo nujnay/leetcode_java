@@ -38,4 +38,9 @@ public class leetcode0268 {
         //first I need sort it, what should I sort it
         //I need dynamic generate a array
     }
+    /**
+     * my first solution is misunderstand the description
+     * I think it is the max number it the array length
+     */
+
 }
