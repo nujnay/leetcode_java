@@ -7,7 +7,7 @@ package leetcodenew.array;
  * runtime complexity?
  */
 public class leetcode0268 {
-    public int missingNumber(int[] nums) {
+    public int missingNumber1(int[] nums) {
 
         int length = 0;
         boolean thereAreZero = false;
@@ -23,7 +23,7 @@ public class leetcode0268 {
             array[i] = i;
         }
         int empty = -1;
-        for (int i2 = 0; i2 < array.length ;i2++) {
+        for (int i2 = 0; i2 < array.length; i2++) {
             if (i2 != 0) {
                 if (array[i2] == 0) {
                     empty = i2;
@@ -38,9 +38,32 @@ public class leetcode0268 {
         //first I need sort it, what should I sort it
         //I need dynamic generate a array
     }
+
     /**
      * my first solution is misunderstand the description
      * I think it is the max number it the array length
      */
-
+    public int missingNumber(int[] nums) {
+        int[] array = new int[nums.length + 1];
+        boolean thereIsZore = false;
+        for (int i : nums) {
+            array[i] = i;
+            if (i == 0) {
+                thereIsZore = true;
+            }
+        }
+        int empty = -1;
+        for (int i = 0; i < array.length; i++) {
+            if (i != 0) {
+                if (array[i] == 0) {
+                    empty = i;
+                }
+            }
+        }
+        if (thereIsZore) {
+            return empty;
+        } else {
+            return 0;
+        }
+    }
 }
