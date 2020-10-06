@@ -256,7 +256,7 @@
       <workItem from="1600740728143" duration="1235000" />
       <workItem from="1601806896131" duration="967000" />
       <workItem from="1601863466449" duration="2317000" />
-      <workItem from="1601945792682" duration="7701000" />
+      <workItem from="1601945792682" duration="8023000" />
     </task>
     <servers />
   </component>
@@ -301,34 +301,34 @@
       <screen x="0" y="23" width="2560" height="1338" />
     </state>
     <state x="100" y="123" width="2360" height="1138" key="DiffContextDialog/0.23.2560.1338@0.23.2560.1338" timestamp="1601812404647" />
-    <state width="2516" height="361" key="GridCell.Tab.0.bottom" timestamp="1601968321542">
+    <state width="2516" height="361" key="GridCell.Tab.0.bottom" timestamp="1601968898136">
       <screen x="0" y="23" width="2560" height="1338" />
     </state>
     <state width="1636" height="239" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1596371007948" />
     <state width="2516" height="382" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1595251086112" />
     <state width="2516" height="470" key="GridCell.Tab.0.bottom/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1596180340592" />
-    <state width="2516" height="361" key="GridCell.Tab.0.bottom/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1601968321542" />
-    <state width="2516" height="361" key="GridCell.Tab.0.center" timestamp="1601968321541">
+    <state width="2516" height="361" key="GridCell.Tab.0.bottom/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1601968898136" />
+    <state width="2516" height="361" key="GridCell.Tab.0.center" timestamp="1601968898136">
       <screen x="0" y="23" width="2560" height="1338" />
     </state>
     <state width="1636" height="239" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1596371007947" />
     <state width="2516" height="382" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1595251086112" />
     <state width="2516" height="470" key="GridCell.Tab.0.center/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1596180340591" />
-    <state width="2516" height="361" key="GridCell.Tab.0.center/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1601968321541" />
-    <state width="2516" height="361" key="GridCell.Tab.0.left" timestamp="1601968321541">
+    <state width="2516" height="361" key="GridCell.Tab.0.center/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1601968898136" />
+    <state width="2516" height="361" key="GridCell.Tab.0.left" timestamp="1601968898135">
       <screen x="0" y="23" width="2560" height="1338" />
     </state>
     <state width="1636" height="239" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1596371007947" />
     <state width="2516" height="382" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1595251086111" />
     <state width="2516" height="470" key="GridCell.Tab.0.left/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1596180340590" />
-    <state width="2516" height="361" key="GridCell.Tab.0.left/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1601968321541" />
-    <state width="2516" height="361" key="GridCell.Tab.0.right" timestamp="1601968321542">
+    <state width="2516" height="361" key="GridCell.Tab.0.left/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1601968898135" />
+    <state width="2516" height="361" key="GridCell.Tab.0.right" timestamp="1601968898136">
       <screen x="0" y="23" width="2560" height="1338" />
     </state>
     <state width="1636" height="239" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1596371007948" />
     <state width="2516" height="382" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1595251086112" />
     <state width="2516" height="470" key="GridCell.Tab.0.right/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1596180340591" />
-    <state width="2516" height="361" key="GridCell.Tab.0.right/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1601968321542" />
+    <state width="2516" height="361" key="GridCell.Tab.0.right/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1601968898136" />
     <state width="1636" height="353" key="GridCell.Tab.1.bottom" timestamp="1596201732735">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
@@ -354,13 +354,14 @@
     </state>
     <state x="518" y="240" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1596197624237" />
     <state x="789" y="330" key="SettingsEditor/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595310711517" />
-    <state x="1400" y="239" width="670" height="532" key="search.everywhere.popup" timestamp="1598088289779">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="2133" y="328" width="1021" height="678" key="search.everywhere.popup" timestamp="1601968637150">
+      <screen x="2560" y="246" width="1680" height="1027" />
     </state>
     <state x="1400" y="239" width="670" height="532" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598088289779" />
     <state x="2133" y="328" width="670" height="729" key="search.everywhere.popup/2560.132.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1597925514833" />
     <state x="2133" y="328" width="670" height="676" key="search.everywhere.popup/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1594633694147" />
     <state x="2133" y="328" width="670" height="677" key="search.everywhere.popup/2560.155.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1597754564686" />
+    <state x="2133" y="328" width="1021" height="678" key="search.everywhere.popup/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1601968637150" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
