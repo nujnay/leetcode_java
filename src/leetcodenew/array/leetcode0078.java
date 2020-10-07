@@ -25,7 +25,9 @@ public class leetcode0078 {
         int[] tmpArray = new int[nums.length - 1];
         int point = 0;
         for (int i = 0; i < nums.length - 2; i = i + 1) {
+            for (int j = 0; j < tmpArray.length; j++) {
 
+            }
         }
 
     }
