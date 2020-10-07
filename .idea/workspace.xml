@@ -257,7 +257,7 @@
       <workItem from="1601806896131" duration="967000" />
       <workItem from="1601863466449" duration="2317000" />
       <workItem from="1601945792682" duration="11360000" />
-      <workItem from="1602034587003" duration="390000" />
+      <workItem from="1602034587003" duration="1818000" />
     </task>
     <servers />
   </component>
@@ -298,9 +298,10 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="1100" y="321" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.23.1680.947@0.23.1680.947" timestamp="1595854515399" />
-    <state x="100" y="123" width="2360" height="1138" key="DiffContextDialog" timestamp="1601812404647">
-      <screen x="0" y="23" width="2560" height="1338" />
+    <state x="66" y="94" width="1549" height="808" key="DiffContextDialog" timestamp="1602061961743">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
+    <state x="66" y="94" width="1549" height="808" key="DiffContextDialog/0.23.1680.949@0.23.1680.949" timestamp="1602061961743" />
     <state x="100" y="123" width="2360" height="1138" key="DiffContextDialog/0.23.2560.1338@0.23.2560.1338" timestamp="1601812404647" />
     <state width="2516" height="361" key="GridCell.Tab.0.bottom" timestamp="1601989258812">
       <screen x="0" y="23" width="2560" height="1338" />
@@ -355,6 +356,10 @@
     </state>
     <state x="518" y="240" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1596197624237" />
     <state x="789" y="330" key="SettingsEditor/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595310711517" />
+    <state x="633" y="202" key="VCS.ChangeListViewerDialog" timestamp="1602036637302">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="633" y="202" key="VCS.ChangeListViewerDialog/0.23.1680.949@0.23.1680.949" timestamp="1602036637302" />
     <state x="2133" y="328" width="1021" height="678" key="search.everywhere.popup" timestamp="1601969861795">
       <screen x="2560" y="246" width="1680" height="1027" />
     </state>

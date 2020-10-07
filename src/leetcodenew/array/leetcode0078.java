@@ -1,5 +1,6 @@
 package leetcodenew.array;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -22,9 +23,12 @@ public class leetcode0078 {
             arraySumLength += i;
         }
         int[][] arrays = new int[2][arraySumLength];
-        int[] tmpArray = new int[nums.length - 1];
+        int[] tmpArray = null;
         int point = 0;
         for (int i = 0; i < nums.length - 2; i = i + 1) {
+            point = nums[i];
+            tmpArray = new int[nums.length - i - 1];
+            System.arraycopy(nums, i + 1, tmpArray, 0, nums.length - 1 - i);
             for (int j = 0; j < tmpArray.length; j++) {
 
             }
