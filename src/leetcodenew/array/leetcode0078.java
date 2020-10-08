@@ -12,22 +12,6 @@ import java.util.List;
 
 public class leetcode0078 {
 
-    public static List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> arrayAll = new ArrayList<>();
-        int[][][] tmp = null;
-        int lengthNext = nums.length;
-        for (int i = 0; i < nums.length; i++) {
-            int height = nums.length - i;
-            int length = nums.length;
-            int itemLength = i + 2;
-            tmp = new int[height][length][itemLength];
-            for (int j = 0; j < nums.length - i; j++) {
-                tmp[0] = new int[nums.length][i + 2];
-            }
-        }
-    }
-
-
     //if number equal 2
     //拿出一个数组来 直到数组长度等于2
     //c43 c42的数 加上所有的但个数
@@ -49,6 +33,22 @@ public class leetcode0078 {
     //0 1 2 3 4
     //0123 0124 0134 0234 （0+ C53出了0）
     //1234
+    public static List<List<Integer>> subsets(int[] nums) {
+        List<List<Integer>> arrayAll = new ArrayList<>();
+        int[][][] tmp = null;
+        int lengthNext = nums.length;
+        for (int i = 0; i < nums.length; i++) {
+            int height = nums.length - i;
+            int length = nums.length;
+            int itemLength = i + 2;
+            tmp = new int[height][length][itemLength];
+            for (int j = 0; j < nums.length - i; j++) {
+                tmp[0] = new int[nums.length][i + 2];
+            }
+        }
+    }
+
+
 //    public int[][] combinationMore2(int number, int[] array) {
 //
 //    }
