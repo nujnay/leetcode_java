@@ -15,9 +15,15 @@ public class leetcode0078 {
     public static List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> arrayAll = new ArrayList<>();
         int[][][] tmp = null;
-        int lengthNext = 0;
+        int lengthNext = nums.length;
         for (int i = 0; i < nums.length; i++) {
-            tmp = new int[nums.length - i][][ 0 + 2];
+            int height = nums.length - i;
+            int length = nums.length;
+            int itemLength = i + 2;
+            tmp = new int[height][length][itemLength];
+            for (int j = 0; j < nums.length - i; j++) {
+                tmp[0] = new int[nums.length][i + 2];
+            }
         }
     }
 
@@ -43,13 +49,17 @@ public class leetcode0078 {
     //0 1 2 3 4
     //0123 0124 0134 0234 （0+ C53出了0）
     //1234
-    public int[][] combinationMore2(int number, int[] array) {
-
-    }
+//    public int[][] combinationMore2(int number, int[] array) {
+//
+//    }
 
     public static void main(String[] args) {
-        int[] a = new int[]{5, 1, 2, 3, 4};
-        printArray(combination2(a));
+        int[][][] a = new int[][][]{new int[][]{new int[]{0, 1}, new int[]{0, 2}, new int[]{0, 3}, new int[]{0, 4}},
+                new int[][]{new int[]{1, 2}, new int[]{1, 3}, new int[]{1, 4}},
+                new int[][]{new int[]{2, 3}, new int[]{2, 4}},
+                new int[][]{new int[]{3, 4}}
+        };
+        printArray3(a);
     }
 
     public static void printArray(int[][] array) {
@@ -59,6 +69,20 @@ public class leetcode0078 {
                 stringBuffer.append(second).append(",");
             }
             System.out.println(stringBuffer.toString());
+        }
+    }
+
+    public static void printArray3(int[][][] array) {
+        for (int[][] first : array) {
+            StringBuilder secondS = new StringBuilder();
+            for (int[] second : first) {
+                StringBuilder thirdS = new StringBuilder();
+                for (int third : second) {
+                    thirdS.append(third).append(",");
+                }
+                secondS.append(thirdS + " ");
+            }
+            System.out.println(secondS.toString());
         }
     }
 
