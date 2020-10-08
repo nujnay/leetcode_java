@@ -12,10 +12,17 @@ public class leetcode0078 {
     //4个数 = c41 c42 c43 c44
     //5个数 = c51 c52 c53 c54 c55
 
-//    public static List<List<Integer>> subsets(int[] nums) {
-//        //先求出c length2 之后所有的数就都出来了
-//
-//    }
+    public static List<List<Integer>> subsets(int[] nums) {
+        //先求出c length2 之后所有的数就都出来了
+        int[][] array2 = combination2(nums);
+        int[][] arrayAll = new int[2][2];
+        if (nums.length >= 3) {
+            for (int i = 3; i < nums.length; i++) {
+
+            }
+        }
+
+    }
 
     public static int[][] combination2(int[] nums) {
         int arraySumLength = 0;
@@ -37,7 +44,6 @@ public class leetcode0078 {
                 arrays[position] = new int[]{point, tmpArray[j]};
                 position++;
             }
-
         }
         return arrays;
     }
@@ -47,8 +53,10 @@ public class leetcode0078 {
     //c43 c42的数 加上所有的但个数
     //C54 等于 所有的c53 加上但个数
 
-
-    public void input(int number, int[] array) {
+    //5 number
+    //0 1 2 3
+    //012 023 123
+    public int[][] combinationMore2(int number, int[] array) {
 
     }
 
