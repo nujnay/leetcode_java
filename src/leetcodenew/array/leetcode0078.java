@@ -12,12 +12,12 @@ public class leetcode0078 {
     //4个数 = c41 c42 c43 c44
     //5个数 = c51 c52 c53 c54 c55
 
-    public List<List<Integer>> subsets(int[] nums) {
-        //先求出c length2 之后所有的数就都出来了
+//    public static List<List<Integer>> subsets(int[] nums) {
+//        //先求出c length2 之后所有的数就都出来了
+//
+//    }
 
-    }
-
-    public int[][] combination2(int[] nums) {
+    public static int[][] combination2(int[] nums) {
         int arraySumLength = 0;
         for (int i = nums.length - 1; i > 0; i--) {
             arraySumLength += i;
@@ -28,16 +28,18 @@ public class leetcode0078 {
         // 4 number 0 1 2 3
         // 0    1   2   3   4   5
         // 01   02  03  12  13  23
-        // 00   01  02  10  11  20
+        int position = 0;
         for (int i = 0; i < nums.length - 1; i++) {
             point = nums[i];
             tmpArray = new int[nums.length - i - 1];
             System.arraycopy(nums, i + 1, tmpArray, 0, nums.length - 1 - i);
             for (int j = 0; j < tmpArray.length; j++) {
-                arrays[(i + j)] = new int[]{point, j};
+                arrays[position] = new int[]{point, tmpArray[j]};
+                position++;
             }
-        }
 
+        }
+        return arrays;
     }
 
     //if number equal 2
@@ -48,5 +50,20 @@ public class leetcode0078 {
 
     public void input(int number, int[] array) {
 
+    }
+
+    public static void main(String[] args) {
+        int[] a = new int[]{5, 1, 2, 3, 4};
+        printArray(combination2(a));
+    }
+
+    public static void printArray(int[][] array) {
+        for (int[] first : array) {
+            StringBuilder stringBuffer = new StringBuilder();
+            for (int second : first) {
+                stringBuffer.append(second).append(",");
+            }
+            System.out.println(stringBuffer.toString());
+        }
     }
 }
