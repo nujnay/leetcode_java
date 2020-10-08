@@ -15,6 +15,7 @@ public class leetcode0078 {
     public static List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> arrayAll = new ArrayList<>();
         int[][][] tmp = null;
+        int lengthNext = 0;
         for (int i = 0; i < nums.length; i++) {
             tmp = new int[nums.length - i][][ 0 + 2];
         }
@@ -40,7 +41,7 @@ public class leetcode0078 {
 
     //5 number 4
     //0 1 2 3 4
-    //0123 0124 0134 （第一个数+C）
+    //0123 0124 0134 0234 （0+ C53出了0）
     //1234
     public int[][] combinationMore2(int number, int[] array) {
 
