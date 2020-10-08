@@ -22,15 +22,19 @@ public class leetcode0078 {
         for (int i = nums.length - 1; i > 0; i--) {
             arraySumLength += i;
         }
-        int[][] arrays = new int[2][arraySumLength];
+        int[][] arrays = new int[arraySumLength][2];
         int[] tmpArray = null;
         int point = 0;
-        for (int i = 0; i < nums.length - 2; i = i + 1) {
+        // 4 number 0 1 2 3
+        // 0    1   2   3   4   5
+        // 01   02  03  12  13  23
+        // 00   01  02  10  11  20
+        for (int i = 0; i < nums.length - 1; i++) {
             point = nums[i];
             tmpArray = new int[nums.length - i - 1];
             System.arraycopy(nums, i + 1, tmpArray, 0, nums.length - 1 - i);
             for (int j = 0; j < tmpArray.length; j++) {
-
+                arrays[(i + j)] = new int[]{point, j};
             }
         }
 
