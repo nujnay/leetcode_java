@@ -35,11 +35,26 @@ public class leetcode0078 {
     //0 1 2 3 4
     //0123 0124 0134 0234 （0+ C53出了0）
     //1234
+
+    //4 number 2
+    //0 1 2 3
+    //01 02 03
+    //12 13
+    //23
+
+    //4 number 3
+    //0 1 2 3
+    //012 013 023
+    //123
+
     public static List<List<Integer>> subsets(int[] nums) {
 
-        int[][] array2 = combination2(nums);
-        if (nums.length > 3) {
 
+        if (nums.length == 0) {
+            List<List<Integer>> arrayLists = new ArrayList<>();
+            List<Integer> arrayList = new ArrayList<>();
+            arrayLists.add(arrayList);
+            return arrayLists;
         }
         if (nums.length == 1) {
             List<List<Integer>> arrayLists = new ArrayList<>();
@@ -48,11 +63,21 @@ public class leetcode0078 {
             arrayLists.add(arrayList);
             return arrayLists;
         }
-        if (nums.length == 0) {
+        if (nums.length == 2) {
             List<List<Integer>> arrayLists = new ArrayList<>();
             List<Integer> arrayList = new ArrayList<>();
+            arrayList.add(nums[0]);
+            arrayList.add(nums[1]);
             arrayLists.add(arrayList);
             return arrayLists;
+        }
+        int[][] array2 = combination2(nums);
+        if (nums.length == 3) {
+            return array2List(array2);
+        }
+        int point = nums.length - 1;
+        for (int i = 0; i < nums.length - 3; i++) { //中间部分有几次
+
         }
     }
 
