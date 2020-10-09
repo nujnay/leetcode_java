@@ -35,20 +35,20 @@ public class leetcode0078 {
     //0 1 2 3 4
     //0123 0124 0134 0234 （0+ C53出了0）
     //1234
-//    public static List<List<Integer>> subsets(int[] nums) {
-//        List<List<Integer>> arrayAll = new ArrayList<>();
-//        int[][] tmp = null;
-//        int lengthNext = nums.length;
-//        int point = 0;
-//        for (int i = 0; i < nums.length - 2; i++) { // from 2 to 4
-//            int length = nums.length;
-//            int itemLength = i + 2;// start from 2
-//            tmp = new int[length][itemLength];
-//            for (int j = 0; j < nums.length - i; j++) {
-//                tmp[0] = new int[nums.length][i + 2];
-//            }
-//        }
-//    }
+    public static List<List<Integer>> subsets(int[] nums) {
+        List<List<Integer>> arrayAll = new ArrayList<>();
+        int[][] tmp = null;
+        int lengthNext = nums.length;
+        int point = 0;
+        for (int i = 2; i < nums.length; i++) { // from 2 to 4
+            int length = kCombination(nums.length, i);
+            int itemLength = 2; // start from 2
+            tmp = new int[length][itemLength];
+            for (int j = 0; j < nums.length - i; j++) {
+                tmp[0] = new int[nums.length][i + 2];
+            }
+        }
+    }
 
     public static int kCombination(int n, int k) {
         return factorials(n) / (factorials(k) * factorials(n - k));
