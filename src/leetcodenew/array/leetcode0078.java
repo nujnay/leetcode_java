@@ -35,26 +35,26 @@ public class leetcode0078 {
     //0 1 2 3 4
     //0123 0124 0134 0234 （0+ C53出了0）
     //1234
-//    public static List<List<Integer>> subsets(int[] nums) {
-//
-//        int[][] array2 = combination2(nums);
-//        if (nums.length > 3) {
-//
-//        }
-//        if (nums.length == 1) {
-//            List<List<Integer>> arrayLists = new ArrayList<>();
-//            List<Integer> arrayList = new ArrayList<>();
-//            arrayList.add(nums[0]);
-//            arrayLists.add(arrayList);
-//            return arrayLists;
-//        }
-//        if (nums.length == 0) {
-//            List<List<Integer>> arrayLists = new ArrayList<>();
-//            List<Integer> arrayList = new ArrayList<>();
-//            arrayLists.add(arrayList);
-//            return arrayLists;
-//        }
-//    }
+    public static List<List<Integer>> subsets(int[] nums) {
+
+        int[][] array2 = combination2(nums);
+        if (nums.length > 3) {
+
+        }
+        if (nums.length == 1) {
+            List<List<Integer>> arrayLists = new ArrayList<>();
+            List<Integer> arrayList = new ArrayList<>();
+            arrayList.add(nums[0]);
+            arrayLists.add(arrayList);
+            return arrayLists;
+        }
+        if (nums.length == 0) {
+            List<List<Integer>> arrayLists = new ArrayList<>();
+            List<Integer> arrayList = new ArrayList<>();
+            arrayLists.add(arrayList);
+            return arrayLists;
+        }
+    }
 
     public static int kCombination(int n, int k) {
         return factorials(n) / (factorials(k) * factorials(n - k));
