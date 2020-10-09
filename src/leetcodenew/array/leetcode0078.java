@@ -1,5 +1,7 @@
 package leetcodenew.array;
 
+import kotlin.reflect.jvm.internal.impl.util.collectionUtils.ScopeUtilsKt;
+
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -33,19 +35,31 @@ public class leetcode0078 {
     //0 1 2 3 4
     //0123 0124 0134 0234 （0+ C53出了0）
     //1234
-    public static List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> arrayAll = new ArrayList<>();
-        int[][] tmp = null;
-        int lengthNext = nums.length;
-        int point = 0;
-        for (int i = 0; i < nums.length; i++) {
-            int length = nums.length;
-            int itemLength = i + 2;
-            tmp = new int[length][itemLength];
-            for (int j = 0; j < nums.length - i; j++) {
-                tmp[0] = new int[nums.length][i + 2];
-            }
+//    public static List<List<Integer>> subsets(int[] nums) {
+//        List<List<Integer>> arrayAll = new ArrayList<>();
+//        int[][] tmp = null;
+//        int lengthNext = nums.length;
+//        int point = 0;
+//        for (int i = 0; i < nums.length - 2; i++) { // from 2 to 4
+//            int length = nums.length;
+//            int itemLength = i + 2;// start from 2
+//            tmp = new int[length][itemLength];
+//            for (int j = 0; j < nums.length - i; j++) {
+//                tmp[0] = new int[nums.length][i + 2];
+//            }
+//        }
+//    }
+
+    public static int kCombination(int n, int k) {
+        return factorials(n) / (factorials(k) * factorials(n - k));
+    }
+
+    public static int factorials(int o) {
+        int factorials = 1;
+        for (int i = 1; i <= o; i++) {
+            factorials *= i;
         }
+        return factorials;
     }
 
 
@@ -54,12 +68,13 @@ public class leetcode0078 {
 //    }
 
     public static void main(String[] args) {
-        int[][][] a = new int[][][]{new int[][]{new int[]{0, 1}, new int[]{0, 2}, new int[]{0, 3}, new int[]{0, 4}},
-                new int[][]{new int[]{1, 2}, new int[]{1, 3}, new int[]{1, 4}},
-                new int[][]{new int[]{2, 3}, new int[]{2, 4}},
-                new int[][]{new int[]{3, 4}}
-        };
-        printArray3(a);
+        System.out.println(kCombination(5, 2));
+//        int[][][] a = new int[][][]{new int[][]{new int[]{0, 1}, new int[]{0, 2}, new int[]{0, 3}, new int[]{0, 4}},
+//                new int[][]{new int[]{1, 2}, new int[]{1, 3}, new int[]{1, 4}},
+//                new int[][]{new int[]{2, 3}, new int[]{2, 4}},
+//                new int[][]{new int[]{3, 4}}
+//        };
+//        printArray3(a);
     }
 
     public static void printArray(int[][] array) {
