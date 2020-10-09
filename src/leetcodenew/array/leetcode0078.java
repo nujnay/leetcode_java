@@ -75,10 +75,44 @@ public class leetcode0078 {
         if (nums.length == 3) {
             return array2List(array2);
         }
-        int point = nums.length - 1;
-        for (int i = 0; i < nums.length - 3; i++) { //中间部分有几次
+        //5 number 2
+        //0 1 2 3 4
+        //01 02 03 04
+        //12 13 14
+        //23 24
+        //34
 
+        //5 number 3
+        //0 1 2 3 4
+        //012 013 014 023 024 034 (0 + C52出了0开头的)
+        //123 124 134       (1 + C52出了0,1开头的)
+        //234               (2 + C52出了0,1,2开头的)
+
+        //5 number 4
+        //0 1 2 3 4
+        //0123 0124 0134 0234 （0+ C53出了0）
+        //1234
+
+        int[][] tmp = new int[array2.length - nums.length + 1][2];
+        System.arraycopy(array2, nums.length - 1, tmp, 0, array2.length - nums.length + 1);
+        int point = nums.length - 1;
+        int[][] second = new int[][];
+        for (int i = 3; i < nums.length; i++) { //中间部分有几次 5 number 3 和 5 number 4
+            for (int j = 0; j < nums.length - i + 1; j++) { //0 开头的 1 开头的 2 开头的
+                int one = nums[j];
+                for (int a = 0; a < tmp.length; a++) { // 0 开头的 要和 上一个数组1开头的结合
+                    combine1AndArray(one, tmp[a]);
+
+                }
+            }
         }
+    }
+
+    public static int[] combine1AndArray(int one, int[] array) {
+        int[] combinationChild = new int[one + array.length];
+        combinationChild[0] = one;
+        System.arraycopy(array, 0, combinationChild, 1, array.length);
+        return combinationChild;
     }
 
     public static int kCombination(int n, int k) {
