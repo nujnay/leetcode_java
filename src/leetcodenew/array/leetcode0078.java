@@ -36,17 +36,23 @@ public class leetcode0078 {
     //0123 0124 0134 0234 （0+ C53出了0）
     //1234
     public static List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> arrayAll = new ArrayList<>();
-        int[][] tmp = null;
-        int lengthNext = nums.length;
-        int point = 0;
-        for (int i = 2; i < nums.length; i++) { // from 2 to 4
-            int length = kCombination(nums.length, i);
-            int itemLength = 2; // start from 2
-            tmp = new int[length][itemLength];
-            for (int j = 0; j < nums.length - i; j++) {
-                tmp[0] = new int[nums.length][i + 2];
-            }
+
+        int[][] array2 = combination2(nums);
+        if (nums.length > 3) {
+
+        }
+        if (nums.length == 1) {
+            List<List<Integer>> arrayLists = new ArrayList<>();
+            List<Integer> arrayList = new ArrayList<>();
+            arrayList.add(nums[0]);
+            arrayLists.add(arrayList);
+            return arrayLists;
+        }
+        if (nums.length == 0) {
+            List<List<Integer>> arrayLists = new ArrayList<>();
+            List<Integer> arrayList = new ArrayList<>();
+            arrayLists.add(arrayList);
+            return arrayLists;
         }
     }
 
@@ -75,6 +81,10 @@ public class leetcode0078 {
 //                new int[][]{new int[]{3, 4}}
 //        };
 //        printArray3(a);
+        int[][] a = new int[][]{new int[]{0, 1}, new int[]{0, 2}, new int[]{0, 3},
+                new int[]{1, 2}, new int[]{1, 3}, new int[]{2, 3}
+        };
+        array2List(a);
     }
 
     public static void printArray(int[][] array) {
@@ -99,6 +109,18 @@ public class leetcode0078 {
             }
             System.out.println(secondS.toString());
         }
+    }
+
+    public static List<List<Integer>> array2List(int[][] array) {
+        List<List<Integer>> arrayLists = new ArrayList<>();
+        for (int[] first : array) {
+            List<Integer> arrayList = new ArrayList<>();
+            for (int second : first) {
+                arrayList.add(second);
+            }
+            arrayLists.add(arrayList);
+        }
+        return arrayLists;
     }
 
 
