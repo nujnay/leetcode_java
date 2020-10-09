@@ -39,7 +39,6 @@ public class leetcode0078 {
         int lengthNext = nums.length;
         int point = 0;
         for (int i = 0; i < nums.length; i++) {
-            int height = nums.length - i;
             int length = nums.length;
             int itemLength = i + 2;
             tmp = new int[length][itemLength];
