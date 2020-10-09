@@ -35,13 +35,14 @@ public class leetcode0078 {
     //1234
     public static List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> arrayAll = new ArrayList<>();
-        int[][][] tmp = null;
+        int[][] tmp = null;
         int lengthNext = nums.length;
+        int point = 0;
         for (int i = 0; i < nums.length; i++) {
             int height = nums.length - i;
             int length = nums.length;
             int itemLength = i + 2;
-            tmp = new int[height][length][itemLength];
+            tmp = new int[length][itemLength];
             for (int j = 0; j < nums.length - i; j++) {
                 tmp[0] = new int[nums.length][i + 2];
             }
