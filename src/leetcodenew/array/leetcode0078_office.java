@@ -8,6 +8,11 @@ public class leetcode0078_office {
         List<Integer> t = new ArrayList<>();
         List<List<Integer>> ans = new ArrayList<>();
 
+        /**
+         * 要对 布尔值有概念
+         * @param nums
+         * @return
+         */
         public List<List<Integer>> subsets(int[] nums) {
             int n = nums.length;
             for (int mask = 0; mask < (1 << n); ++mask) {
