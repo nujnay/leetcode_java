@@ -9,7 +9,7 @@ public class leetcode0078_office {
         List<List<Integer>> ans = new ArrayList<>();
 
         /**
-         * 要对 布尔值有概念
+         *
          * @param nums
          * @return
          */
@@ -51,12 +51,18 @@ public class leetcode0078_office {
 
     public static void main(String[] args) {
         int a = 0B100;
-        int b = a << 1;
-        int c = a << 2;
-        int d = a << 3;
+        int b = a << 0b01;
+        int c = a << 0b10;
+        int d = a << 0b100;
         System.out.println(Integer.toBinaryString(a));
+        System.out.println("===");
+        System.out.println("01");
         System.out.println(Integer.toBinaryString(b));
+        System.out.println("===");
+        System.out.println("10");
         System.out.println(Integer.toBinaryString(c));
+        System.out.println("===");
+        System.out.println("100");
         System.out.println(Integer.toBinaryString(d));
     }
 
