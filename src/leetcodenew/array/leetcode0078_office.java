@@ -5,8 +5,8 @@ import java.util.List;
 
 public class leetcode0078_office {
     class Solution {
-        List<Integer> t = new ArrayList<Integer>();
-        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        List<Integer> t = new ArrayList<>();
+        List<List<Integer>> ans = new ArrayList<>();
 
         public List<List<Integer>> subsets(int[] nums) {
             int n = nums.length;
@@ -17,15 +17,15 @@ public class leetcode0078_office {
                         t.add(nums[i]);
                     }
                 }
-                ans.add(new ArrayList<Integer>(t));
+                ans.add(new ArrayList<>(t));
             }
             return ans;
         }
     }
 
     class Solution2 {
-        List<Integer> t = new ArrayList<Integer>();
-        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        List<Integer> t = new ArrayList<>();
+        List<List<Integer>> ans = new ArrayList<>();
 
         public List<List<Integer>> subsets(int[] nums) {
             dfs(0, nums);
@@ -34,7 +34,7 @@ public class leetcode0078_office {
 
         public void dfs(int cur, int[] nums) {
             if (cur == nums.length) {
-                ans.add(new ArrayList<Integer>(t));
+                ans.add(new ArrayList<>(t));
                 return;
             }
             t.add(nums[cur]);
