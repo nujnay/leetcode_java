@@ -53,7 +53,7 @@ public class leetcode0078_office {
         int a = 0B100;
         int b = a << 0b01;
         int c = a << 0b10;
-        int d = a << 0b100;
+        int d = a << 0b11;
         System.out.println(Integer.toBinaryString(a));
         System.out.println("===");
         System.out.println("01");
