@@ -49,8 +49,9 @@ public class leetcode0078_office {
         }
     }
 
+
     public static void main(String[] args) {
-        int a = 0B100;
+        int a = 0B01;
         int b = a << 0b01;
         int c = a << 0b10;
         int d = a << 0b11;
