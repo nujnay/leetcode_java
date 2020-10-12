@@ -51,7 +51,13 @@ public class leetcode0078_office {
 
     public static void main(String[] args) {
         int a = 0B100;
-        System.out.println(a);
+        int b = a << 1;
+        int c = a << 2;
+        int d = a << 3;
+        System.out.println(Integer.toBinaryString(a));
+        System.out.println(Integer.toBinaryString(b));
+        System.out.println(Integer.toBinaryString(c));
+        System.out.println(Integer.toBinaryString(d));
     }
 
 }
