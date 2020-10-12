@@ -56,13 +56,13 @@ public class leetcode0078_office {
         int d = a << 0b11;
         System.out.println(Integer.toBinaryString(a));
         System.out.println("===");
-        System.out.println("01");
+        System.out.println("1");
         System.out.println(Integer.toBinaryString(b));
         System.out.println("===");
         System.out.println("10");
         System.out.println(Integer.toBinaryString(c));
         System.out.println("===");
-        System.out.println("100");
+        System.out.println("11");
         System.out.println(Integer.toBinaryString(d));
     }
 
