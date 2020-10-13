@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="y">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodenew/array/leetcode0078_office.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodenew/array/leetcode0078_office.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javastudy/hashmapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javastudy/hashmapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,9 +75,22 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode0078_office">
+  <component name="RunManager" selected="Application.hashmapTest">
     <configuration name="ForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javastudy.ForTest" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javastudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hashmapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javastudy.hashmapTest" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -115,19 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode0167" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.week4.leetcode0167" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KtForTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="VM_PARAMETERS" />
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hashmapTest" />
         <item itemvalue="Application.leetcode0078_office" />
         <item itemvalue="Application.leetcode0078" />
         <item itemvalue="Application.ForTest" />
         <item itemvalue="Kotlin.KtForTestKt" />
-        <item itemvalue="Application.leetcode0167" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +262,7 @@
       <workItem from="1602259321136" duration="2772000" />
       <workItem from="1602410752121" duration="4949000" />
       <workItem from="1602507223350" duration="946000" />
-      <workItem from="1602549161137" duration="1849000" />
+      <workItem from="1602549161137" duration="4248000" />
     </task>
     <servers />
   </component>
@@ -304,7 +304,7 @@
     </state>
     <state x="66" y="94" width="1549" height="808" key="DiffContextDialog/0.23.1680.949@0.23.1680.949" timestamp="1602061961743" />
     <state x="100" y="123" width="2360" height="1138" key="DiffContextDialog/0.23.2560.1338@0.23.2560.1338" timestamp="1601812404647" />
-    <state width="2516" height="360" key="GridCell.Tab.0.bottom" timestamp="1602550493109">
+    <state width="2516" height="360" key="GridCell.Tab.0.bottom" timestamp="1602560821831">
       <screen x="0" y="23" width="2560" height="1338" />
     </state>
     <state width="1636" height="239" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1596371007948" />
@@ -312,8 +312,8 @@
     <state width="2516" height="382" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1595251086112" />
     <state width="2516" height="360" key="GridCell.Tab.0.bottom/0.23.2560.1338@0.23.2560.1338" timestamp="1602507207385" />
     <state width="2516" height="470" key="GridCell.Tab.0.bottom/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1596180340592" />
-    <state width="2516" height="360" key="GridCell.Tab.0.bottom/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1602550493109" />
-    <state width="2516" height="360" key="GridCell.Tab.0.center" timestamp="1602550493108">
+    <state width="2516" height="360" key="GridCell.Tab.0.bottom/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1602560821831" />
+    <state width="2516" height="360" key="GridCell.Tab.0.center" timestamp="1602560821829">
       <screen x="0" y="23" width="2560" height="1338" />
     </state>
     <state width="1636" height="239" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1596371007947" />
@@ -321,8 +321,8 @@
     <state width="2516" height="382" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1595251086112" />
     <state width="2516" height="360" key="GridCell.Tab.0.center/0.23.2560.1338@0.23.2560.1338" timestamp="1602507207385" />
     <state width="2516" height="470" key="GridCell.Tab.0.center/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1596180340591" />
-    <state width="2516" height="360" key="GridCell.Tab.0.center/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1602550493108" />
-    <state width="2516" height="360" key="GridCell.Tab.0.left" timestamp="1602550493107">
+    <state width="2516" height="360" key="GridCell.Tab.0.center/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1602560821829" />
+    <state width="2516" height="360" key="GridCell.Tab.0.left" timestamp="1602560821829">
       <screen x="0" y="23" width="2560" height="1338" />
     </state>
     <state width="1636" height="239" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1596371007947" />
@@ -330,8 +330,8 @@
     <state width="2516" height="382" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1595251086111" />
     <state width="2516" height="360" key="GridCell.Tab.0.left/0.23.2560.1338@0.23.2560.1338" timestamp="1602507207384" />
     <state width="2516" height="470" key="GridCell.Tab.0.left/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1596180340590" />
-    <state width="2516" height="360" key="GridCell.Tab.0.left/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1602550493107" />
-    <state width="2516" height="360" key="GridCell.Tab.0.right" timestamp="1602550493108">
+    <state width="2516" height="360" key="GridCell.Tab.0.left/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1602560821829" />
+    <state width="2516" height="360" key="GridCell.Tab.0.right" timestamp="1602560821830">
       <screen x="0" y="23" width="2560" height="1338" />
     </state>
     <state width="1636" height="239" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1596371007948" />
@@ -339,7 +339,7 @@
     <state width="2516" height="382" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1595251086112" />
     <state width="2516" height="360" key="GridCell.Tab.0.right/0.23.2560.1338@0.23.2560.1338" timestamp="1602507207385" />
     <state width="2516" height="470" key="GridCell.Tab.0.right/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1596180340591" />
-    <state width="2516" height="360" key="GridCell.Tab.0.right/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1602550493108" />
+    <state width="2516" height="360" key="GridCell.Tab.0.right/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1602560821830" />
     <state width="1636" height="353" key="GridCell.Tab.1.bottom" timestamp="1596201732735">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
