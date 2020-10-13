@@ -38,6 +38,7 @@ public class hashmapTest {
         Set<String> set = registerWords.get(platforms);
         if (CollectionUtils.isEmpty(set)) {
             set = new HashSet<>();
+            System.out.println("ffff");
             registerWords.put(platforms, set);
         }
     }
