@@ -51,20 +51,28 @@ public class leetcode0078_office {
 
 
     public static void main(String[] args) {
-        int a = 0B01;
-        int b = a << 0b01;
-        int c = a << 0b10;
-        int d = a << 0b11;
-        System.out.println(Integer.toBinaryString(a));
-        System.out.println("===");
-        System.out.println("1");
-        System.out.println(Integer.toBinaryString(b));
-        System.out.println("===");
-        System.out.println("10");
-        System.out.println(Integer.toBinaryString(c));
-        System.out.println("===");
-        System.out.println("11");
-        System.out.println(Integer.toBinaryString(d));
+//        int a = 0B01;
+//        int b = a << 0b01;
+//        int c = a << 0b10;
+//        int d = a << 0b11;
+//        System.out.println(Integer.toBinaryString(a));
+//        System.out.println("===");
+//        System.out.println("1");
+//        System.out.println(Integer.toBinaryString(b));
+//        System.out.println("===");
+//        System.out.println("10");
+//        System.out.println(Integer.toBinaryString(c));
+//        System.out.println("===");
+//        System.out.println("11");
+//        System.out.println(Integer.toBinaryString(d));
+        int n = 0B11;
+        int length = 1 << n;
+        System.out.println(Integer.toBinaryString(length));
+        System.out.println(length);
+        System.out.println("====");
+        for (int mask = 0; mask < (1 << n); ++mask) {
+            System.out.println(Integer.toBinaryString(mask));
+        }
     }
 
 }
