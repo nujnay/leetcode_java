@@ -7,7 +7,11 @@ public class leetcode0206 {
      * Reverse a singly linked list.
      * 1 -> 2 -> 3 -> 4 -> 5 -> null
      *
-     * 3 -> 4 -> 5 -> null
+     * 2 -> 3 -> 4 -> 5 -> null
+     *
+     * 1 -> 2
+     *
+     * 3 -> 2 -> 1
      *
      *
      *
