@@ -5,14 +5,20 @@ import leetcodenew.ListNode;
 public class leetcode0206 {
     /**
      * Reverse a singly linked list.
-     * 1 -> 2 -> 3 -> 4 -> 5 -> null
+     * tmp = 1 -> 2 -> 3 -> 4 -> 5 -> null
+     * result = 1 -> null
      *
-     * 2 -> 3 -> 4 -> 5 -> null
      *
-     * 1 -> 2
      *
-     * 3 -> 2 -> 1
      *
+     * tmp = 2 -> 3 -> 4 -> 5 -> null
+     * result = 2 -> 1 -> null
+     *
+     * tmp = 3 -> 4 -> 5 -> null
+     * result = 3 -> 2 -> 1 -> null
+     *
+     * tmp = 4 -> 5 -> null
+     * result = 4 -> 3 -> 2 -> 1 -> null
      *
      *
      */
@@ -22,10 +28,9 @@ public class leetcode0206 {
 
     public ListNode reverseList(ListNode head) {
         ListNode tmp = head;
-        ListNode result = null;
+        ListNode result = head;
         while (tmp.next != null) {
-            result = tmp.next;
-            result.next = tmp;
+
         }
     }
 }
