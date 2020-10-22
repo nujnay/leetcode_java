@@ -29,7 +29,8 @@ public class leetcode0206 {
             result = origin;
             origin = tmp;
         }
-
+        origin.next = result;
+        result = origin;
         return result;
     }
 }
