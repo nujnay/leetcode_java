@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="y">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodenew/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodenew/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodenew/linkedlist/leetcode0206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodenew/linkedlist/leetcode0206.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.hashmapTest">
+  <component name="RunManager" selected="Application.leetcode0206">
     <configuration name="ForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javastudy.ForTest" />
       <module name="leetcode" />
@@ -128,26 +130,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KtForTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode0206" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodenew.linkedlist.leetcode0206" />
       <module name="leetcode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="javastudy.KtForTestKt" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodenew.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode0206" />
         <item itemvalue="Application.hashmapTest" />
         <item itemvalue="Application.leetcode0078_office" />
         <item itemvalue="Application.leetcode0078" />
         <item itemvalue="Application.ForTest" />
-        <item itemvalue="Kotlin.KtForTestKt" />
       </list>
     </recent_temporary>
   </component>
@@ -273,6 +275,7 @@
       <workItem from="1603160512887" duration="976000" />
       <workItem from="1603194265795" duration="2094000" />
       <workItem from="1603247055325" duration="1998000" />
+      <workItem from="1603333252830" duration="1222000" />
     </task>
     <servers />
   </component>
@@ -305,6 +308,10 @@
     </state>
     <state x="990" y="500" key="#com.intellij.fileTypes.FileTypeChooser/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595310317835" />
     <state x="990" y="500" key="#com.intellij.fileTypes.FileTypeChooser/2560.155.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1597717852533" />
+    <state x="1037" y="399" key="#com.intellij.ide.util.MemberChooser" timestamp="1603334481236">
+      <screen x="0" y="23" width="2560" height="1336" />
+    </state>
+    <state x="1037" y="399" key="#com.intellij.ide.util.MemberChooser/2560.246.1680.1027/0.23.2560.1336@0.23.2560.1336" timestamp="1603334481236" />
     <state x="1100" y="321" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1595854515399">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
@@ -314,8 +321,8 @@
     </state>
     <state x="66" y="94" width="1549" height="808" key="DiffContextDialog/0.23.1680.949@0.23.1680.949" timestamp="1602061961743" />
     <state x="100" y="123" width="2360" height="1138" key="DiffContextDialog/0.23.2560.1338@0.23.2560.1338" timestamp="1601812404647" />
-    <state width="1636" height="238" key="GridCell.Tab.0.bottom" timestamp="1602593970667">
-      <screen x="0" y="23" width="2560" height="1338" />
+    <state width="2516" height="358" key="GridCell.Tab.0.bottom" timestamp="1603334730751">
+      <screen x="0" y="23" width="2560" height="1336" />
     </state>
     <state width="1636" height="239" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1596371007948" />
     <state width="1636" height="239" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1602167348893" />
@@ -323,9 +330,10 @@
     <state width="1636" height="238" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1602588563547" />
     <state width="2516" height="360" key="GridCell.Tab.0.bottom/0.23.2560.1338@0.23.2560.1338" timestamp="1602507207385" />
     <state width="2516" height="470" key="GridCell.Tab.0.bottom/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1596180340592" />
+    <state width="2516" height="358" key="GridCell.Tab.0.bottom/2560.246.1680.1027/0.23.2560.1336@0.23.2560.1336" timestamp="1603334730751" />
     <state width="1636" height="238" key="GridCell.Tab.0.bottom/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1602593970667" />
-    <state width="1636" height="238" key="GridCell.Tab.0.center" timestamp="1602593970666">
-      <screen x="0" y="23" width="2560" height="1338" />
+    <state width="2516" height="358" key="GridCell.Tab.0.center" timestamp="1603334730750">
+      <screen x="0" y="23" width="2560" height="1336" />
     </state>
     <state width="1636" height="239" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1596371007947" />
     <state width="1636" height="239" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1602167348892" />
@@ -333,9 +341,10 @@
     <state width="1636" height="238" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1602588563546" />
     <state width="2516" height="360" key="GridCell.Tab.0.center/0.23.2560.1338@0.23.2560.1338" timestamp="1602507207385" />
     <state width="2516" height="470" key="GridCell.Tab.0.center/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1596180340591" />
+    <state width="2516" height="358" key="GridCell.Tab.0.center/2560.246.1680.1027/0.23.2560.1336@0.23.2560.1336" timestamp="1603334730750" />
     <state width="1636" height="238" key="GridCell.Tab.0.center/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1602593970666" />
-    <state width="1636" height="238" key="GridCell.Tab.0.left" timestamp="1602593970666">
-      <screen x="0" y="23" width="2560" height="1338" />
+    <state width="2516" height="358" key="GridCell.Tab.0.left" timestamp="1603334730750">
+      <screen x="0" y="23" width="2560" height="1336" />
     </state>
     <state width="1636" height="239" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1596371007947" />
     <state width="1636" height="239" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1602167348891" />
@@ -343,9 +352,10 @@
     <state width="1636" height="238" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1602588563545" />
     <state width="2516" height="360" key="GridCell.Tab.0.left/0.23.2560.1338@0.23.2560.1338" timestamp="1602507207384" />
     <state width="2516" height="470" key="GridCell.Tab.0.left/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1596180340590" />
+    <state width="2516" height="358" key="GridCell.Tab.0.left/2560.246.1680.1027/0.23.2560.1336@0.23.2560.1336" timestamp="1603334730750" />
     <state width="1636" height="238" key="GridCell.Tab.0.left/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1602593970666" />
-    <state width="1636" height="238" key="GridCell.Tab.0.right" timestamp="1602593970667">
-      <screen x="0" y="23" width="2560" height="1338" />
+    <state width="2516" height="358" key="GridCell.Tab.0.right" timestamp="1603334730751">
+      <screen x="0" y="23" width="2560" height="1336" />
     </state>
     <state width="1636" height="239" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1596371007948" />
     <state width="1636" height="239" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1602167348892" />
@@ -353,6 +363,7 @@
     <state width="1636" height="238" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1602588563546" />
     <state width="2516" height="360" key="GridCell.Tab.0.right/0.23.2560.1338@0.23.2560.1338" timestamp="1602507207385" />
     <state width="2516" height="470" key="GridCell.Tab.0.right/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1596180340591" />
+    <state width="2516" height="358" key="GridCell.Tab.0.right/2560.246.1680.1027/0.23.2560.1336@0.23.2560.1336" timestamp="1603334730751" />
     <state width="1636" height="238" key="GridCell.Tab.0.right/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1602593970667" />
     <state width="1636" height="353" key="GridCell.Tab.1.bottom" timestamp="1596201732735">
       <screen x="0" y="23" width="1680" height="947" />
@@ -393,7 +404,6 @@
     </state>
     <state x="1400" y="239" width="670" height="532" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598088289779" />
     <state x="2133" y="328" width="670" height="729" key="search.everywhere.popup/2560.132.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1597925514833" />
-    <state x="2133" y="328" width="670" height="676" key="search.everywhere.popup/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1594633694147" />
     <state x="2133" y="328" width="670" height="677" key="search.everywhere.popup/2560.155.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1597754564686" />
     <state x="2133" y="328" width="1021" height="678" key="search.everywhere.popup/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1602729860111" />
   </component>
