@@ -2,6 +2,8 @@ package leetcodenew.linkedlist;
 
 import leetcodenew.ListNode;
 
+import javax.swing.plaf.IconUIResource;
+
 
 /**
  * 21. Merge Two Sorted Lists
@@ -75,7 +77,7 @@ class Solution {
 
     public ListNode addToLast(ListNode last, ListNode root) {
         ListNode current = root;
-        ListNode tmp = root;
+        ListNode tmp = null;
         if (root == null) {
             root = last;
             return root;
@@ -86,7 +88,7 @@ class Solution {
                 break;
             } else {
                 tmp = current.next;
-                current.next = tmp;
+                current = tmp;
             }
         }
         return root;
