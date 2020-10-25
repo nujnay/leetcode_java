@@ -65,11 +65,9 @@ class Solution {
         while (leftL1 != null || leftL2 != null) {
             if (leftL1 == null) {
                 result = addToLast(leftL2, result);
-                leftL2 = null;
             }
             if (leftL2 == null) {
                 result = addToLast(leftL1, result);
-                leftL1 = null;
             }
             if (leftL1 != null && leftL2 != null) {
                 if (leftL1.val < leftL2.val) {
