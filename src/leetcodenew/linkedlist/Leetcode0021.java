@@ -58,17 +58,36 @@ class Solution {
         ListNode result = null;
         ListNode leftL1 = l1;
         ListNode leftL2 = l2;
+        ListNode nextL1 = l1;
+        ListNode nextL2 = l2;
         ListNode TmpL1 = null;
         ListNode TmpL2 = null;
         do {
             if (leftL1.val < leftL2.val) {
-
+                TmpL1 = leftL1;
+                TmpL1.next = null;
+                result = addToLast(TmpL1, result);
+                nextL1 = leftL1.next;
+                leftL1 = nextL1;
             }
             if (leftL1.val > leftL2.val) {
-
+                TmpL2 = leftL2;
+                TmpL2.next = null;
+                result = addToLast(TmpL2, result);
+                nextL2 = leftL2.next;
+                leftL2 = nextL2;
             }
             if (leftL1.val == leftL2.val) {
-
+                TmpL1 = leftL1;
+                TmpL1.next = null;
+                result = addToLast(TmpL1, result);
+                TmpL2 = leftL2;
+                TmpL2.next = null;
+                result = addToLast(TmpL2, result);
+                nextL1 = leftL1.next;
+                leftL1 = nextL1;
+                nextL2 = leftL2.next;
+                leftL2 = nextL2;
             }
         } while (leftL1.next == null && leftL2.next == null);
 
