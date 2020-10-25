@@ -70,32 +70,31 @@ class Solution {
                 result = addToLast(leftL2, result);
                 nextL2 = leftL2.next;
                 leftL2 = nextL2;
+                continue;
             }
             if (leftL2 == null) {
                 result = addToLast(leftL1, result);
                 nextL1 = leftL1.next;
                 leftL1 = nextL1;
+                continue;
             }
-            if (leftL1 != null && leftL2 != null) {
-                if (leftL1.val < leftL2.val) {
-                    result = addToLast(leftL1, result);
-                    nextL1 = leftL1.next;
-                    leftL1 = nextL1;
-                } else if (leftL1.val > leftL2.val) {
-                    result = addToLast(leftL2, result);
-                    nextL2 = leftL2.next;
-                    leftL2 = nextL2;
-                } else {
-                    result = addToLast(leftL1, result);
-                    result = addToLast(leftL2, result);
-                    nextL1 = leftL1.next;
-                    leftL1 = nextL1;
-                    nextL2 = leftL2.next;
-                    leftL2 = nextL2;
-                }
+            if (leftL1.val < leftL2.val) {
+                result = addToLast(leftL1, result);
+                nextL1 = leftL1.next;
+                leftL1 = nextL1;
+            } else if (leftL1.val > leftL2.val) {
+                result = addToLast(leftL2, result);
+                nextL2 = leftL2.next;
+                leftL2 = nextL2;
+            } else {
+                result = addToLast(leftL1, result);
+                result = addToLast(leftL2, result);
+                nextL1 = leftL1.next;
+                leftL1 = nextL1;
+                nextL2 = leftL2.next;
+                leftL2 = nextL2;
             }
         }
-        ;
 
         return result;
     }
