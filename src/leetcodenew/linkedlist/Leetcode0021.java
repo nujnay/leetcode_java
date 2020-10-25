@@ -63,31 +63,39 @@ class Solution {
         ListNode TmpL1 = null;
         ListNode TmpL2 = null;
         do {
-            if (leftL1.val < leftL2.val) {
-                TmpL1 = leftL1;
-                TmpL1.next = null;
-                result = addToLast(TmpL1, result);
-                nextL1 = leftL1.next;
-                leftL1 = nextL1;
+            if (leftL1 == null) {
+                result = addToLast(leftL2, result);
             }
-            if (leftL1.val > leftL2.val) {
-                TmpL2 = leftL2;
-                TmpL2.next = null;
-                result = addToLast(TmpL2, result);
-                nextL2 = leftL2.next;
-                leftL2 = nextL2;
+            if (leftL2 == null) {
+                result = addToLast(leftL1, result);
             }
-            if (leftL1.val == leftL2.val) {
-                TmpL1 = leftL1;
-                TmpL1.next = null;
-                result = addToLast(TmpL1, result);
-                TmpL2 = leftL2;
-                TmpL2.next = null;
-                result = addToLast(TmpL2, result);
-                nextL1 = leftL1.next;
-                leftL1 = nextL1;
-                nextL2 = leftL2.next;
-                leftL2 = nextL2;
+            if (leftL1 != null && leftL2 != null) {
+                if (leftL1.val < leftL2.val) {
+                    TmpL1 = leftL1;
+                    TmpL1.next = null;
+                    result = addToLast(TmpL1, result);
+                    nextL1 = leftL1.next;
+                    leftL1 = nextL1;
+                }
+                if (leftL1.val > leftL2.val) {
+                    TmpL2 = leftL2;
+                    TmpL2.next = null;
+                    result = addToLast(TmpL2, result);
+                    nextL2 = leftL2.next;
+                    leftL2 = nextL2;
+                }
+                if (leftL1.val == leftL2.val) {
+                    TmpL1 = leftL1;
+                    TmpL1.next = null;
+                    result = addToLast(TmpL1, result);
+                    TmpL2 = leftL2;
+                    TmpL2.next = null;
+                    result = addToLast(TmpL2, result);
+                    nextL1 = leftL1.next;
+                    leftL1 = nextL1;
+                    nextL2 = leftL2.next;
+                    leftL2 = nextL2;
+                }
             }
         } while (leftL1.next == null && leftL2.next == null);
 
@@ -113,6 +121,7 @@ class Solution {
         return root;
     }
 }
+
 public class Leetcode0021 {
 
     public static void main(String[] args) {
