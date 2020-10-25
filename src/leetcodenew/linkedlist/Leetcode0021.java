@@ -49,6 +49,11 @@ import javax.swing.plaf.IconUIResource;
  * leftL1 5 -> 6
  * leftL2 4
  * result 1 -> 2 -> 3 -> null
+ *
+ *
+ * leftL1 1 -> 2 -> 3 -> 4 -> 5
+ * leftL2 6 -> null
+ * result
  */
 
 
