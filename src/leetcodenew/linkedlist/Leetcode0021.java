@@ -62,12 +62,14 @@ class Solution {
         ListNode nextL2 = null;
         ListNode TmpL1 = null;
         ListNode TmpL2 = null;
-        while (null == leftL1 || null == leftL2) {
+        while (leftL1 != null || leftL2 != null) {
             if (leftL1 == null) {
                 result = addToLast(leftL2, result);
+                leftL2 = null;
             }
             if (leftL2 == null) {
                 result = addToLast(leftL1, result);
+                leftL1 = null;
             }
             if (leftL1 != null && leftL2 != null) {
                 if (leftL1.val < leftL2.val) {
