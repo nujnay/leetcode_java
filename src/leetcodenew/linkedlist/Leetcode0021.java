@@ -58,8 +58,8 @@ class Solution {
         ListNode result = null;
         ListNode leftL1 = l1;
         ListNode leftL2 = l2;
-        ListNode nextL1 = l1;
-        ListNode nextL2 = l2;
+        ListNode nextL1 = null;
+        ListNode nextL2 = null;
         ListNode TmpL1 = null;
         ListNode TmpL2 = null;
         do {
@@ -117,11 +117,11 @@ public class Leetcode0021 {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        ListNode root = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, null)))));
-        System.out.println(root);
-        ListNode add = new ListNode(6, null);
-        System.out.println(add);
-        ListNode result = solution.addToLast(add, root);
+        ListNode l1 = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, null)))));
+        System.out.println(l1);
+        ListNode l2 = new ListNode(6, null);
+        System.out.println(l2);
+        ListNode result = solution.mergeTwoLists(l1, l2);
         System.out.println(result);
     }
 }
