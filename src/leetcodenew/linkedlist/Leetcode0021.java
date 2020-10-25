@@ -65,35 +65,29 @@ class Solution {
         ListNode leftL2 = l2;
         ListNode nextL1 = null;
         ListNode nextL2 = null;
-        ListNode TmpL1 = null;
-        ListNode TmpL2 = null;
         while (leftL1 != null || leftL2 != null) {
             if (leftL1 == null) {
                 result = addToLast(leftL2, result);
+                nextL2 = leftL2.next;
+                leftL2 = nextL2;
             }
             if (leftL2 == null) {
                 result = addToLast(leftL1, result);
+                nextL1 = leftL1.next;
+                leftL1 = nextL1;
             }
             if (leftL1 != null && leftL2 != null) {
                 if (leftL1.val < leftL2.val) {
-                    TmpL1 = leftL1;
-                    TmpL1.next = null;
-                    result = addToLast(TmpL1, result);
+                    result = addToLast(leftL1, result);
                     nextL1 = leftL1.next;
                     leftL1 = nextL1;
                 } else if (leftL1.val > leftL2.val) {
-                    TmpL2 = leftL2;
-                    TmpL2.next = null;
-                    result = addToLast(TmpL2, result);
+                    result = addToLast(leftL2, result);
                     nextL2 = leftL2.next;
                     leftL2 = nextL2;
                 } else {
-                    TmpL1 = leftL1;
-                    TmpL1.next = null;
-                    result = addToLast(TmpL1, result);
-                    TmpL2 = leftL2;
-                    TmpL2.next = null;
-                    result = addToLast(TmpL2, result);
+                    result = addToLast(leftL1, result);
+                    result = addToLast(leftL2, result);
                     nextL1 = leftL1.next;
                     leftL1 = nextL1;
                     nextL2 = leftL2.next;
@@ -107,15 +101,16 @@ class Solution {
     }
 
     public ListNode addToLast(ListNode last, ListNode root) {
+        ListNode lastTrue = new ListNode(last.val);
         ListNode current = root;
         ListNode tmp = null;
         if (root == null) {
-            root = last;
+            root = lastTrue;
             return root;
         }
         for (; ; ) {
             if (current.next == null) {
-                current.next = last;
+                current.next = lastTrue;
                 break;
             } else {
                 tmp = current.next;
