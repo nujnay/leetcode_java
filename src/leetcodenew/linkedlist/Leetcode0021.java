@@ -62,7 +62,7 @@ class Solution {
         ListNode nextL2 = null;
         ListNode TmpL1 = null;
         ListNode TmpL2 = null;
-        do {
+        while (null == leftL1 || null == leftL2) {
             if (leftL1 == null) {
                 result = addToLast(leftL2, result);
             }
@@ -95,7 +95,8 @@ class Solution {
                     leftL2 = nextL2;
                 }
             }
-        } while (null == leftL1 && null == leftL2);
+        }
+        ;
 
         return result;
     }
