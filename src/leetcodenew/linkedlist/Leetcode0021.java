@@ -76,15 +76,13 @@ class Solution {
                     result = addToLast(TmpL1, result);
                     nextL1 = leftL1.next;
                     leftL1 = nextL1;
-                }
-                if (leftL1.val > leftL2.val) {
+                } else if (leftL1.val > leftL2.val) {
                     TmpL2 = leftL2;
                     TmpL2.next = null;
                     result = addToLast(TmpL2, result);
                     nextL2 = leftL2.next;
                     leftL2 = nextL2;
-                }
-                if (leftL1.val == leftL2.val) {
+                } else {
                     TmpL1 = leftL1;
                     TmpL1.next = null;
                     result = addToLast(TmpL1, result);
@@ -97,7 +95,7 @@ class Solution {
                     leftL2 = nextL2;
                 }
             }
-        } while (leftL1.next == null && leftL2.next == null);
+        } while (null == leftL1 && null == leftL2);
 
         return result;
     }
