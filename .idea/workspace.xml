@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="y">
-      <change afterPath="$PROJECT_DIR$/src/leetcodenew/array/leetcode0078New.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodenew/math/Combination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodenew/Utils/PrintUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodenew/array/leetcode0078_office.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodenew/array/leetcode0078_office.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode0021">
+  <component name="RunManager" selected="Application.leetcode0078_office">
     <configuration name="Leetcode0021" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcodenew.linkedlist.Leetcode0021" />
       <module name="leetcode" />
@@ -145,10 +145,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode0078_office" />
         <item itemvalue="Application.Leetcode0021" />
         <item itemvalue="Application.leetcode0206" />
         <item itemvalue="Application.hashmapTest" />
-        <item itemvalue="Application.leetcode0078_office" />
         <item itemvalue="Application.leetcode0078" />
       </list>
     </recent_temporary>
@@ -281,7 +281,7 @@
       <workItem from="1603593785158" duration="801000" />
       <workItem from="1603595316496" duration="5654000" />
       <workItem from="1603629579027" duration="1769000" />
-      <workItem from="1603643315712" duration="158000" />
+      <workItem from="1603643315712" duration="660000" />
     </task>
     <servers />
   </component>

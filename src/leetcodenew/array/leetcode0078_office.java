@@ -1,5 +1,7 @@
 package leetcodenew.array;
 
+import leetcodenew.Utils.PrintUtil;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,7 +11,6 @@ public class leetcode0078_office {
         List<List<Integer>> ans = new ArrayList<>();
 
         /**
-         *
          * @param nums
          * @return
          */
@@ -65,14 +66,20 @@ public class leetcode0078_office {
 //        System.out.println("===");
 //        System.out.println("11");
 //        System.out.println(Integer.toBinaryString(d));
-        int n = 0B11;
-        int length = 1 << n;
-        System.out.println(Integer.toBinaryString(length));
-        System.out.println(length);
-        System.out.println("====");
-        for (int mask = 0; mask < (1 << n); ++mask) {
-            System.out.println(Integer.toBinaryString(mask));
-        }
+//        int n = 0B11;
+//        int length = 1 << n;
+//        System.out.println(Integer.toBinaryString(length));
+//        System.out.println(length);
+//        System.out.println("====");
+//        for (int mask = 0; mask < (1 << n); ++mask) {
+//            System.out.println(Integer.toBinaryString(mask));
+//        }
+
+        int[][] a = new int[][]{new int[]{0, 1}, new int[]{0, 2}, new int[]{0, 3},
+                new int[]{1, 2}, new int[]{1, 3}, new int[]{2, 3}
+        };
+        PrintUtil.printArray(a);
+
     }
 
 }
