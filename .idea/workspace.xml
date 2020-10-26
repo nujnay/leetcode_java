@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="y">
-      <change afterPath="$PROJECT_DIR$/src/leetcodenew/linkedlist/leetcode0024.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodenew/array/leetcode0078New.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodenew/math/Combination.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -279,6 +280,8 @@
       <workItem from="1603528945831" duration="237000" />
       <workItem from="1603593785158" duration="801000" />
       <workItem from="1603595316496" duration="5654000" />
+      <workItem from="1603629579027" duration="1769000" />
+      <workItem from="1603643315712" duration="158000" />
     </task>
     <servers />
   </component>
