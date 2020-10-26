@@ -29,7 +29,7 @@ public class leetcode0078_office {
         }
     }
 
-    class Solution2 {
+    static class Solution2 {
         List<Integer> t = new ArrayList<>();
         List<List<Integer>> ans = new ArrayList<>();
 
@@ -75,11 +75,10 @@ public class leetcode0078_office {
 //            System.out.println(Integer.toBinaryString(mask));
 //        }
 
-        int[][] a = new int[][]{new int[]{0, 1}, new int[]{0, 2}, new int[]{0, 3},
-                new int[]{1, 2}, new int[]{1, 3}, new int[]{2, 3}
-        };
-        PrintUtil.printArray(a);
-
+        int[] a = new int[]{1, 2, 3, 4, 5};
+        Solution2 solution2 = new Solution2();
+        List list = solution2.subsets(a);
+        PrintUtil.printList(list);
     }
 
 }
