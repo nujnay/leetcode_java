@@ -75,7 +75,7 @@ public class leetcode0078_office {
 //            System.out.println(Integer.toBinaryString(mask));
 //        }
 
-        int[] a = new int[]{1, 2, 3, 4, 5};
+        int[] a = new int[]{1, 2};
         Solution2 solution2 = new Solution2();
         List list = solution2.subsets(a);
         PrintUtil.printList(list);
