@@ -59,12 +59,12 @@ public class leetcode0078_office {
         public void dfs(int cur, int[] nums) {
             System.out.println("\nstart: cur "+cur);
             if (cur == nums.length) {
-                ans.add(new ArrayList<>(t));System.out.println("62");System.out.print("ans：");PrintUtil.printList(ans);
+                ans.add(new ArrayList<>(t));System.out.print("62 ");System.out.print("ans：");PrintUtil.printList(ans);
                 return;
             }
-            t.add(nums[cur]); System.out.println("65");System.out.print("t1：");PrintUtil.printList1(t);
+            t.add(nums[cur]); System.out.print("65 ");System.out.print("t1：");PrintUtil.printList1(t);System.out.print("cur："); System.out.print(cur);
             dfs(cur + 1, nums);
-            t.remove(t.size() - 1); System.out.println("67");System.out.print("t2：");PrintUtil.printList1(t);
+            t.remove(t.size() - 1); System.out.print("67 ");System.out.print("t2：");PrintUtil.printList1(t);System.out.print("cur："); System.out.print(cur);
             dfs(cur + 1, nums);
         }
     }
