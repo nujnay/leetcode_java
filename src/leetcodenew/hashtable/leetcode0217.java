@@ -13,7 +13,7 @@ public class leetcode0217 {
      */
     class Solution {
         public boolean containsDuplicate(int[] nums) {
-
+            return true;
         }
     }
 }
