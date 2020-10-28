@@ -29,6 +29,24 @@ public class leetcode0078_office {
         }
     }
 
+    /**
+     * cur 0 [1, 2]
+     * t 1
+     * <p>
+     * cur 1 [1, 2]
+     * t {1, 2}
+     * <p>
+     * cur 2 [1, 2]
+     * t {1, 2}
+     * ans {1, 2}
+     * <p>
+     * cur 0 [1, 2]
+     * t {1, 2}
+     * t {1 }
+     * <p>
+     * cur 1 [1, 2]
+     */
+
     static class Solution2 {
         List<Integer> t = new ArrayList<>();
         List<List<Integer>> ans = new ArrayList<>();
@@ -39,13 +57,14 @@ public class leetcode0078_office {
         }
 
         public void dfs(int cur, int[] nums) {
+            System.out.println("\nstart: cur "+cur);
             if (cur == nums.length) {
-                ans.add(new ArrayList<>(t));
+                ans.add(new ArrayList<>(t)); System.out.print("ans：");PrintUtil.printList(ans);
                 return;
             }
-            t.add(nums[cur]);
+            t.add(nums[cur]); System.out.print("t1：");PrintUtil.printList1(t);
             dfs(cur + 1, nums);
-            t.remove(t.size() - 1);
+            t.remove(t.size() - 1); System.out.print("t2：");PrintUtil.printList1(t);
             dfs(cur + 1, nums);
         }
     }
@@ -75,7 +94,7 @@ public class leetcode0078_office {
 //            System.out.println(Integer.toBinaryString(mask));
 //        }
 
-        int[] a = new int[]{1, 2};
+        int[] a = new int[]{1, 2 };
         Solution2 solution2 = new Solution2();
         List list = solution2.subsets(a);
         PrintUtil.printList(list);

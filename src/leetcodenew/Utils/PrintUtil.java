@@ -31,9 +31,16 @@ public class PrintUtil {
         for (List<Integer> first : list) {
             StringBuilder secondS = new StringBuilder();
             for (int second : first) {
-                secondS.append(second).append(",");
+                secondS.append(" ").append(second).append(",");
             }
-            System.out.println(secondS.toString());
+            System.out.println(" {" + secondS.toString() + "},");
         }
+    }
+
+    public static void printList1(List<Integer> list) {
+        for (Integer first : list) {
+            System.out.print(first.toString() + ", ");
+        }
+        System.out.println("");
     }
 }
