@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="y">
-      <change afterPath="$PROJECT_DIR$/src/leetcodenew/dfs/leetcode0559.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodenew/dfs/leetcode0690.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="y" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +65,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcodenew.dfs" />
       <recent name="array" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -286,7 +283,7 @@
       <workItem from="1603786051376" duration="2903000" />
       <workItem from="1603848569843" duration="4610000" />
       <workItem from="1603936392032" duration="713000" />
-      <workItem from="1603955242943" duration="289000" />
+      <workItem from="1603955242943" duration="849000" />
     </task>
     <servers />
   </component>
