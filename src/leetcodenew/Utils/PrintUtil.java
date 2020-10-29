@@ -41,6 +41,5 @@ public class PrintUtil {
         for (Integer first : list) {
             System.out.print(first.toString() + ", ");
         }
-        System.out.println("");
     }
 }

@@ -57,7 +57,7 @@ public class leetcode0078_office {
         }
 
         public void dfs(int cur, int[] nums) {
-            System.out.println("\nstart: cur "+cur);
+            System.out.println("\n\nstart: cur "+cur);
             if (cur == nums.length) {
                 ans.add(new ArrayList<>(t));System.out.print("62 ");System.out.print("ans：");PrintUtil.printList(ans);
                 return;
@@ -94,7 +94,7 @@ public class leetcode0078_office {
 //            System.out.println(Integer.toBinaryString(mask));
 //        }
 
-        int[] a = new int[]{1, 2,3 };
+        int[] a = new int[]{1, 2};
         Solution2 solution2 = new Solution2();
         List list = solution2.subsets(a);
         PrintUtil.printList(list);
