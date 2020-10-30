@@ -59,7 +59,7 @@ public class leetcode0078_office {
         public void dfs(int cur, int[] nums) {
             System.out.println("\n\nstart: cur "+cur);
             if (cur == nums.length) {
-                ans.add(new ArrayList<>(t));System.out.print("62 ");System.out.print("ans：");PrintUtil.printList(ans);
+                ans.add(new ArrayList<>(t));System.out.print("62 ");System.out.print("ans：");PrintUtil.printList(ans);System.out.println();
                 return;
             }
             t.add(nums[cur]); System.out.print("65 ");System.out.print("t1：");PrintUtil.printList1(t);System.out.print("cur："); System.out.print(cur);
@@ -72,6 +72,7 @@ public class leetcode0078_office {
     static class Solution3 {
         /**
          * 1 2 3
+         *
          * 1 2 3
          * 1 2
          * 1 3
@@ -124,7 +125,7 @@ public class leetcode0078_office {
 //            System.out.println(Integer.toBinaryString(mask));
 //        }
 
-        int[] a = new int[]{1, 2 , 3 ,4  };
+        int[] a = new int[]{1, 2 , 3 };
         Solution2 solution2 = new Solution2();
         List list = solution2.subsets(a);
 //        PrintUtil.printList(list);
