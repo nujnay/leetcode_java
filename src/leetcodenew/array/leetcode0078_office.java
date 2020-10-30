@@ -78,6 +78,22 @@ public class leetcode0078_office {
          * 2 - 3
          * 3
          *
+         * 1 2 3 4
+         *
+         * 1 - 2 - 3 - 4
+         *     3   4
+         *     4
+         *
+         * 2 - 3 - 4
+         *   \
+         *     4
+         *
+         * 3 - 4
+         *
+         * 4
+         *
+         *
+         *
          */
 
     }
@@ -107,7 +123,7 @@ public class leetcode0078_office {
 //            System.out.println(Integer.toBinaryString(mask));
 //        }
 
-        int[] a = new int[]{1, 2};
+        int[] a = new int[]{1, 2 , 3 ,4  };
         Solution2 solution2 = new Solution2();
         List list = solution2.subsets(a);
 //        PrintUtil.printList(list);
