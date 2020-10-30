@@ -97,7 +97,7 @@ public class leetcode0078_office {
         int[] a = new int[]{1, 2};
         Solution2 solution2 = new Solution2();
         List list = solution2.subsets(a);
-        PrintUtil.printList(list);
+//        PrintUtil.printList(list);
     }
 
 }
