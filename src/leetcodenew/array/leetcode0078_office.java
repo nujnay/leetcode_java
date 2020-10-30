@@ -69,6 +69,19 @@ public class leetcode0078_office {
         }
     }
 
+    static class Solution3 {
+        /**
+         * 1 2 3
+         * 1 - 2 - 3
+         *   \
+         *     3
+         * 2 - 3
+         * 3
+         *
+         */
+
+    }
+
 
     public static void main(String[] args) {
 //        int a = 0B01;
