@@ -73,10 +73,10 @@ public class leetcode0078_office {
                 ans.add(new ArrayList<>(t));System.out.print("62 ");System.out.print("ans：");PrintUtil.printList(ans);System.out.println();
                 return;
             }
-            t.add(nums[cur]);
+            t.add(nums[cur]);//递归之前加入选择
             System.out.print("65 ");System.out.print("t1：");PrintUtil.printList1(t);System.out.print("cur："); System.out.print(cur);
             dfs(cur + 1, nums);
-            t.remove(t.size() - 1);
+            t.remove(t.size() - 1);//递归之后移除选择
             System.out.print("68 ");System.out.print("t2：");PrintUtil.printList1(t);System.out.print("cur："); System.out.print(cur);
             dfs(cur + 1, nums);
             System.out.println("end");
