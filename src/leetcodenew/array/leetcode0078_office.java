@@ -68,6 +68,7 @@ public class leetcode0078_office {
             t.remove(t.size() - 1);
             System.out.print("68 ");System.out.print("t2：");PrintUtil.printList1(t);System.out.print("cur："); System.out.print(cur);
             dfs(cur + 1, nums);
+            System.out.println("end");
         }
     }
 
@@ -127,7 +128,7 @@ public class leetcode0078_office {
 //            System.out.println(Integer.toBinaryString(mask));
 //        }
 
-        int[] a = new int[]{1, 2 , 3 };
+        int[] a = new int[]{1, 2,3 };
         Solution2 solution2 = new Solution2();
         List list = solution2.subsets(a);
 //        PrintUtil.printList(list);
