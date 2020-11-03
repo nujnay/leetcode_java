@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="y" />
+    <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="y">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodenew/backtracking/leetcode0401.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodenew/backtracking/leetcode0401.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -288,7 +291,9 @@
       <workItem from="1604020034866" duration="4100000" />
       <workItem from="1604032798916" duration="5656000" />
       <workItem from="1604065650797" duration="532000" />
-      <workItem from="1604282354790" duration="4152000" />
+      <workItem from="1604282354790" duration="6387000" />
+      <workItem from="1604325205593" duration="298000" />
+      <workItem from="1604370157793" duration="2096000" />
     </task>
     <servers />
   </component>
