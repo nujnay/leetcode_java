@@ -27,6 +27,8 @@ public class leetcode0401 {
         class Solution {
             public List<String> readBinaryWatch(int num) {
 
+
+
             }
         }
     }

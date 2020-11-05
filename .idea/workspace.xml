@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2115461a-5034-43d6-abe6-2d490e04cef8" name="Default Changelist" comment="y">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodenew/backtracking/leetcode0401.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodenew/backtracking/leetcode0401.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,7 +292,10 @@
       <workItem from="1604065650797" duration="532000" />
       <workItem from="1604282354790" duration="6387000" />
       <workItem from="1604325205593" duration="298000" />
-      <workItem from="1604370157793" duration="2096000" />
+      <workItem from="1604370157793" duration="2618000" />
+      <workItem from="1604415498121" duration="2000" />
+      <workItem from="1604457926388" duration="1061000" />
+      <workItem from="1604542491179" duration="2057000" />
     </task>
     <servers />
   </component>
@@ -313,10 +315,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="744" y="353" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595674669344">
-      <screen x="0" y="23" width="2560" height="1337" />
-    </state>
-    <state x="744" y="353" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.155.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1595674669344" />
     <state x="990" y="500" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597717852533">
       <screen x="0" y="23" width="2560" height="1338" />
     </state>
@@ -325,10 +323,6 @@
       <screen x="0" y="23" width="2560" height="1336" />
     </state>
     <state x="1037" y="399" key="#com.intellij.ide.util.MemberChooser/2560.246.1680.1027/0.23.2560.1336@0.23.2560.1336" timestamp="1603334481236" />
-    <state x="1100" y="321" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1595854515399">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state x="1100" y="321" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.23.1680.947@0.23.1680.947" timestamp="1595854515399" />
     <state x="66" y="94" width="1549" height="808" key="DiffContextDialog" timestamp="1602061961743">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
@@ -414,11 +408,11 @@
       <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state x="633" y="202" key="VCS.ChangeListViewerDialog/0.23.1680.949@0.23.1680.949" timestamp="1602036637302" />
-    <state x="987" y="446" width="866" height="687" key="find.popup" timestamp="1603423229199">
+    <state x="987" y="446" width="866" height="687" key="find.popup" timestamp="1604563600150">
       <screen x="0" y="23" width="2560" height="1336" />
     </state>
     <state x="648" y="325" width="568" height="490" key="find.popup/0.23.1680.954@0.23.1680.954" timestamp="1602590861796" />
-    <state x="987" y="446" width="866" height="687" key="find.popup/2560.246.1680.1027/0.23.2560.1336@0.23.2560.1336" timestamp="1603423229199" />
+    <state x="987" y="446" width="866" height="687" key="find.popup/2560.246.1680.1027/0.23.2560.1336@0.23.2560.1336" timestamp="1604563600150" />
     <state x="987" y="447" width="586" height="490" key="find.popup/2560.246.1680.1027/0.23.2560.1338@0.23.2560.1338" timestamp="1602552985521" />
     <state x="269" y="160" width="1556" height="882" key="search.everywhere.popup" timestamp="1604050015276">
       <screen x="0" y="23" width="2560" height="1336" />
