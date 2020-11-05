@@ -11,7 +11,8 @@ public class leetcode0401 {
      * <p>
      * For example, the above binary watch reads "3:25".
      * <p>
-     * Given a non-negative integer n which represents the number of LEDs that are currently on, return all possible times the watch could represent.
+     * Given a non-negative integer n which represents the number of LEDs that are currently on,
+     * return all possible times the watch could represent.
      * <p>
      * Example:
      * <p>
