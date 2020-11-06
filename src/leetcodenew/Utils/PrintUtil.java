@@ -42,4 +42,10 @@ public class PrintUtil {
             System.out.print(first.toString() + ", ");
         }
     }
+
+    public static void printList2(List list) {
+        for (Object first : list) {
+            System.out.print(first.toString() + ", ");
+        }
+    }
 }

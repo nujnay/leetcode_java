@@ -1,5 +1,7 @@
 package leetcodenew.backtracking;
 
+import leetcodenew.Utils.PrintUtil;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,14 +29,15 @@ public class leetcode0401 {
      */
 
     public static void main(String[] args) {
-
+        Solution solution = new Solution();
+        PrintUtil.printList2(solution.readBinaryWatch(2));
     }
 
     /**
      * 方法2:回溯,二叉树(官方喜欢的选和不选)
      * 使用一个数组来保存手表上的数组,其中前四位1,2,4,8表示是小时,后面6位01,02,04,08,16,32表示的是分钟;
      */
-    class Solution {
+     static class Solution {
 
         // 下标索引在0-3范围内的表示的是小时,不在这个范围内的表示的是分钟;
         Integer[] watch = {1, 2, 4, 8, 1, 2, 4, 8, 16, 32};
