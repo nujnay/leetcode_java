@@ -54,13 +54,11 @@ public class leetcode0401 {
          * @param minute 当前已经算出来的分钟
          */
         private void dfs(int num, int idx, int count, int hour, int minute) {
-
             // 剪枝;
             if (hour > 11 || minute > 59) {
                 // 这些结果是要丢弃的;
                 return;
             }
-
             // 凑足了数字,则需要添加结果;
             if (count == num) {
                 StringBuffer sb = new StringBuffer();
@@ -75,18 +73,13 @@ public class leetcode0401 {
                 res.add(sb.toString());
                 return;
             }
-
             // 如果不用for循环,则需要自己添加递归终止判定;
             if (idx >= watch.length) {
                 return;
             }
-
-
             // 不选;不选数字则count不需要加1;
             dfs(num, idx + 1, count, hour, minute);
-
             // 选;
-
             if (idx <= 3) { // 加到小时上;
                 hour += watch[idx];
             } else {
