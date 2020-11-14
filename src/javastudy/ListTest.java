@@ -12,6 +12,7 @@ public class ListTest {
         LinkedList<String> strings1 = new LinkedList<>();
         strings1.add("");
 
+
         strings1.indexOf("0");
     }
 }
