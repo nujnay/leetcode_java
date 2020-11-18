@@ -15,16 +15,12 @@ public class LeetCode0993 {
      *
      * Return true if and only if the nodes corresponding to the values x and y are cousins.
      *
-     Input: root = [1,2,3,4], x = 4, y = 3
-     Output: false
-
-     Input: root = [1,2,3,null,4,null,5], x = 5, y = 4
-     Output: true
-
-     Input: root = [1,2,3,null,4,null,5], x = 5, y = 4
-     Output: true
-
-
+     * Input: root = [1,2,3,4], x = 4, y = 3
+     * Output: false
+     * Input: root = [1,2,3,null,4,null,5], x = 5, y = 4
+     * Output: true
+     * Input: root = [1,2,3,null,4,null,5], x = 5, y = 4
+     * Output: true
      */
 
 
