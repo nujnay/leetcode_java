@@ -6,6 +6,9 @@ public class LeetCode0225 {
      *
      * Implement the MyStack class:
      *
+     *
+     *
+     *
      * void push(int x) Pushes element x to the top of the stack.
      * int pop() Removes the element on the top of the stack and returns it.
      * int top() Returns the element on the top of the stack.
